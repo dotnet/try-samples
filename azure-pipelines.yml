@@ -1,0 +1,12 @@
+# CI and PR triggers
+trigger:
+- master
+pr:
+- master
+   
+jobs:
+- job: Windows
+  pool:
+    vmImage: windows-2019
+  steps:
+  - script: build.cmd
