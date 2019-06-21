@@ -28,4 +28,4 @@ In C# 7.1, out variable declarations have been extended to include field initial
 ```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/OutVariableDeclarations.cs --region DeclareOutQueryVariable
 ```
 
-### Next: [Local functions &raquo;](./local-functions.md)  Previous: [Declare lightweight types with tuples  &laquo;](./declare-tuples.md) Home: [Home](readme.md)
+#### Next: [Local functions &raquo;](./local-functions.md)  Previous: [Declare lightweight types with tuples  &laquo;](./declare-tuples.md) Home: [Home](readme.md)

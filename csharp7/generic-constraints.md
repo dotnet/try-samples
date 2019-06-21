@@ -21,4 +21,4 @@ Finally, test how it works:
 
 Modify the `enum` values, or the method declaration or test code to experiment on your own.
 
-#### Next [More improvements &raquo;](./all-this-and-more.md) Previous: [Local functions &laquo;](./local-functions.md) Home: [Home](readme.md)
+####  Previous: [Local functions &laquo;](./local-functions.md) Home: [Home](readme.md)

@@ -20,4 +20,4 @@ The preceding version makes it clear that the local method is referenced only in
 The same technique can be employed with `async` methods to ensure that exceptions arising from argument validation are thrown before the asynchronous
 work begins.
 
-#### Previous:   [Local functions &laquo;](./local-functions.md) Home: [Home](readme.md)
+#### Next [New generic constraints &raquo;](./generic-constraints.md)    Previous:   [Local functions &laquo;](./local-functions.md) Home: [Home](readme.md)

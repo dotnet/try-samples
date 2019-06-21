@@ -35,7 +35,7 @@ Features were added to C# 7.x that make it easier to adopt nullable reference ty
 
 Many of these use unsafe code, which aren't available in the local `dotnet try` environment. Learn more about them on docs.microsoft.com:
 
-- [fixed fields without pinning - 7.3](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3)
+- [fixed fields without pinning](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3)
 - [stackalloc array initializers](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3#stackalloc-arrays-support-initializers)
 - [Conditional ref expressions](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-2#conditional-ref-expressions)
 
@@ -44,12 +44,14 @@ Many of these use unsafe code, which aren't available in the local `dotnet try` 
 Other features improve your ability to write clear code in a variety of scenarios:
 
 - [local functions](local-functions.md)
-- [new generic constraints - 7.3](generic-constraints.md)
-- [default literal expressions - 7.1](all-this-and-more.md)
-- [Leading underscores in numeric literals - 7.2](all-this-and-more.md)
-- [attributes on backing fields of properties - 7.3](all-this-and-more.md)
+- [new generic constraints ](generic-constraints.md)
 
-In addition, you can create [Async Main methods](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-1#async-main), which you can learn about on docs.microsoft.com.
+Two other features aren't in this tutorial. Learn more about them on docs.microsoft.com:
+
+- [attributes on backing fields of properties](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3#attach-attributes-to-the-backing-fields-for-auto-implemented-properties)
+- [Async Main methods](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-1#async-main)
+- [default literal expressions](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-1#default-literal-expressions)
+- [Leading underscores in numeric literals](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-2#leading-underscores-in-numeric-literals)
 
 You can try these scenarios and features in C# 7.x by stepping through the different sections of this tutorial. Or, you can select any of the preceding links to go to the feature you want to explore first.
 

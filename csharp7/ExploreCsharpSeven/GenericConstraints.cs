@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ExploreCsharpSeven
 {
-    class GenericConstraints
+    public static class GenericConstraints
     {
         #region DeclareEnumConstraint
         public static Dictionary<int, string> EnumNamedValues<T>() where T : System.Enum
