@@ -18,4 +18,4 @@ Use this block to try it with different values:
 
 Local functions are a great way to implement recursive algorithms. Other common uses are for public iterator methods and public async methods. Both types of methods generate     code that reports errors later than programmers might expect. In the case of iterator methods, any exceptions are observed only when calling code that enumerates the returned sequence. In the case of async methods, any exceptions are only observed when the returned `Task` is awaited.
 
-#### Next [Default literal expressions &raquo;](./default-literals.md) Previous: [Initializers on stackalloc arrays &laquo;](./initialize-stackalloc.md) Home: [Home](readme.md)
+#### Next [New generic constraints &raquo;](./generic-constraints.md) Previous: [out variable initializers &laquo;](./out-variable-declaration.md) Home: [Home](readme.md)

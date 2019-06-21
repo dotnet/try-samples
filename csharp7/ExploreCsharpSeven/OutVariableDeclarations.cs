@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace ExploreCsharpSeven
 {
@@ -26,6 +27,18 @@ namespace ExploreCsharpSeven
                 return 1;
             }
             Console.WriteLine(result);
+            #endregion
+            return 0;
+        }
+
+        public static int OutVarQuery()
+        {
+            #region DeclareOutQueryVariable
+            string[] input = { "1", "2", "3", "4", "five", "6", "7" };
+            var numbers = from s in input
+                          select (success: int.TryParse(s, out int result), result);
+            foreach (var item in numbers)
+                Console.WriteLine($"{(item.success ? "Success  result is: " : "Failed to parse")}\t{(item.success ? item.result.ToString() : string.Empty)}");
             #endregion
             return 0;
         }

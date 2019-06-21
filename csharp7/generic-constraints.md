@@ -1,11 +1,24 @@
 # Enhanced generic constraints
 
-You can now specify the type System.Enum or System.Delegate as base class constraints for a type parameter.
+some of the restrictions on generic constraints have been removed. You can now specify the type `System.Enum` or `System.Delegate` as base class constraints for a type parameter.
 
-You can also use the new unmanaged constraint, to specify that a type parameter must be an unmanaged type. An unmanaged type is a type that isn't a reference type and doesn't contain any reference type at any level of nesting.
+You can also use the new `unmanaged` constraint, to specify that a type parameter must be an `unmanaged` type. An `unmanaged` type is a type that isn't a reference type and doesn't contain any reference type at any level of nesting.
 
-For more information, see the articles on where generic constraints and constraints on type parameters.
+Consider the following generic method that builds a dictionary of all the values in an enum mapped to the string representations:
 
-Adding these constraints to existing types is an incompatible change. Closed generic types may no longer meet these new constraints.
+```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/GenericConstraints.cs --region DeclareEnumConstraint --session Generics
+```
 
-#### Next [Attributes on backing fields of properties &raquo;](./backing-fields.md) Previous: [Leading underscores on literals &laquo;](./leading-underscores.md) Home: [Home](readme.md)
+Next, declare an `enum` type:
+
+```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/GenericConstraints.cs --region DeclareEnum --session Generics
+```
+
+Finally, test how it works:
+
+```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/GenericConstraints.cs --region TestMapEnumValues --session Generics
+```
+
+Modify the `enum` values, or the method declaration or test code to experiment on your own.
+
+#### Next [More improvements &raquo;](./all-this-and-more.md) Previous: [Local functions &laquo;](./local-functions.md) Home: [Home](readme.md)

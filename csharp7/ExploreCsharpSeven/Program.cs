@@ -35,6 +35,10 @@ namespace ExploreCsharpSeven
                 "GenericSwitchTypePattern" => GenericPatterns.CallTestType(),
                 "GenericTestTypeWithSwitch" => GenericPatterns.CallTestType(),
                 "InferMemberNames" => TupleUses.InferredTupleNames(),
+                "DeclareOutQueryVariable" => OutVariableDeclarations.OutVarQuery(),
+                "DeclareEnumConstraint" =>  GenericConstraints.TestEnumNamedValues(),
+                "DeclareEnum" => GenericConstraints.TestEnumNamedValues(),
+                "TestMapEnumValues" => GenericConstraints.TestEnumNamedValues(),
                 _ => RunAll()
             };
          }
@@ -55,6 +59,8 @@ namespace ExploreCsharpSeven
             ReadonlyStruct.ModifyTheOrigin();
             GenericPatterns.CallTestType();
             TupleUses.InferredTupleNames();
+            OutVariableDeclarations.OutVarQuery();
+            GenericConstraints.TestEnumNamedValues();
             return 0;
         }
     }

@@ -32,24 +32,24 @@ Tuples combine both of the previous themes: They are lightweight value types tha
 Features were added to C# 7.x that make it easier to adopt nullable reference types in C# 8. These features reduce the locations where you must declare a variable and initialize it later.
 
 - [Declare out variables when assigned](./out-variable-declaration.md)
-- [Conditional ref expressions - 7.2](./conditional-ref-expressions.md)  START HERE 
-- [more expression variables in initializers - 7.3](expression-initializers.md)
-- [initializers on stackalloc arrays - 7.3](initialize-stackalloc.md)
+
+Many of these use unsafe code, which aren't available in the local `dotnet try` environment. Learn more about them on docs.microsoft.com:
+
+- [fixed fields without pinning - 7.3](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3)
+- [stackalloc array initializers](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-3#stackalloc-arrays-support-initializers)
+- [Conditional ref expressions](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-2#conditional-ref-expressions)
 
 ## Improve code organization and readability
 
 Other features improve your ability to write clear code in a variety of scenarios:
 
 - [local functions](local-functions.md)
-- [default literal expressions - 7.1](default-literals.md)
-- [Leading underscores in numeric literals - 7.2](leading-underscores.md)
 - [new generic constraints - 7.3](generic-constraints.md)
-- [attributes on backing fields of properties - 7.3](backing-fields.md)
+- [default literal expressions - 7.1](all-this-and-more.md)
+- [Leading underscores in numeric literals - 7.2](all-this-and-more.md)
+- [attributes on backing fields of properties - 7.3](all-this-and-more.md)
 
-This exploration doesn't include examples for an `async Main` method, because the `Main` method is part of the scaffolding project for the explorations.
-- [fixed fields without pinning - 7.3](./unpinned-fixed.md)
-- [non trailing named arguments - 7.2](more-named-arguments.md)
-- [private protected access modifier - 7.2](private-protected.md)
+In addition, you can create [Async Main methods](https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-7-1#async-main), which you can learn about on docs.microsoft.com.
 
 You can try these scenarios and features in C# 7.x by stepping through the different sections of this tutorial. Or, you can select any of the preceding links to go to the feature you want to explore first.
 

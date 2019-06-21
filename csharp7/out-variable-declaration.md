@@ -16,11 +16,16 @@ The new syntax provides two important advantages over the existing syntax:
 * The code is easier to read.
    - You declare the out variable where you use it, not on another line above.
 * No need to assign an initial value.
-   - By declaring the `out` variable where it is used in a method call, you can't accidentally use it before it is assigned.
+   - By declaring the `out` variable where it is used in a method call, you can't accidentally use it before it is correctly assigned.
 
 The declared variable's scope is the scope enclosing the `if` statement. This allows you to use the variable afterwards. Modify the last `if` block as shown in the following snippet.
 
 ```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/OutVariableDeclarations.cs --region OutVariableDeclarationScope
 ```
 
-#### Next: [Conditional ref expressions &raquo;](./conditional-ref-expressions.md)    Previous: [Declare lightweight types with tuples  &laquo;](./declare-tuples.md) Home: [Home](readme.md)
+In C# 7.1, out variable declarations have been extended to include field initializers, property initializers, constructor initializers, and query clauses. It enables code such as the following example:
+
+```cs --project ./ExploreCsharpSeven/ExploreCsharpSeven.csproj --source-file ./ExploreCsharpSeven/OutVariableDeclarations.cs --region DeclareOutQueryVariable
+```
+
+### Next: [Local functions &raquo;](./local-functions.md)  Previous: [Declare lightweight types with tuples  &laquo;](./declare-tuples.md) Home: [Home](readme.md)
