@@ -22,6 +22,6 @@ jobs:
      displayName: 'Use .NET Core sdk'
      inputs:
        packageType: sdk
-       version: 2.1.11
+       version: 2.1.700
        installationPath: $(Agent.ToolsDirectory)/dotnet
    - script: build.cmd
