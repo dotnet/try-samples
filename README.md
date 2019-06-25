@@ -7,6 +7,18 @@
 
 This repository contains samples and tutorials that run using the [dotnet try](https://github.com/dotnet/try) global tool.
 
+You can explore these tutorials in your environment using the `dotnet try` global tool:
+
+1. Install the [dotnet-try](https://github.com/dotnet/try/blob/master/README.md#setup) global tool.
+1. Clone this repository.
+1. Set the current directory to one of the sample tutorials (or use the current folder to see all samples).
+1. Run `dotnet try`.
+
+The tutorials in this repository are:
+
+- [Explore C# 7 through C# 7.3](./csharp7/readme.md).
+- [Explore C# 8](./csharp8/readme.md).
+
 ## Contribution Guidelines
 
 We're working on this. The existing tutorials are linked to [.NET docs](https://github.com/dotnet/docs), but that's not required.
