@@ -354,3 +354,6 @@ MigrationBackup/
 # binlog files for dotnet-try
 **/*.binlog
 NuGet.config
+
+# MacOS files
+.DS_Store
