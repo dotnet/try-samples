@@ -357,3 +357,4 @@ NuGet.config
 
 # MacOS files
 .DS_Store
+**/.trydotnet-builderror
