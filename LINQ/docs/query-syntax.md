@@ -21,7 +21,13 @@ Next, you write any number of *transformations*:
 where n % 2 == 1
 ```
 
-Every *transformation* produces an output sequence from its input sequence. This transformation is a *filter*. The elements from the input sequence that satisfy the condition `n % 2 == 1` are produced as the output sequence. As you work through more lessons in this tutorial, you'll create more complicated transformations.
+Every *transformation* produces an output sequence from its input sequence. This transformation is a *filter*. The elements from the input sequence that satisfy the condition `n % 2 == 1` are produced as the output sequence. As you work through more lessons in this tutorial, you'll create more complicated transformations. Another common transformation is to *order* the results. Add the following line between the `where` clause and the `select` clause:
+
+```csharp
+orderby n descending
+```
+
+Click *Run* and the output sequence is in the reverse order. 
 
 Finally, every query ends with a *projection*:
 
@@ -31,4 +37,4 @@ select n * n;
 
 Every query ends with a *projection* that produces either a new sequence, or a single value. This first example produces a sequence where every element is the square of the input sequence.
 
-You can modify any of these sections in the uery and run it yourself.
+You can modify any of these sections in the query and run it yourself.
