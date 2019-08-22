@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,6 +26,8 @@ namespace LINQ
             return region switch
             {
                 "query-syntax" => QuerySyntax(),
+                "generate-source-sequence" => ConsumeSequence(),
+                "consume-sequence" => ConsumeSequence(),
                 _ => throw new ArgumentException("A --region argument must be passed", nameof(region))
             };
         }
@@ -42,6 +45,31 @@ namespace LINQ
             #endregion
             return 0;
         }
+
+        internal static int ConsumeSequence()
+        {
+            #region consume-sequence
+            var sequence = GenerateSequence();
+            var squaresOfOddNumbers = from n in sequence
+                                      where n % 2 == 1
+                                      select n * n;
+
+            foreach (var number in squaresOfOddNumbers)
+                Console.WriteLine(number);
+            #endregion
+            return 0;
+        }
+
+        #region generate-source-sequence
+        internal static IEnumerable<int> GenerateSequence()
+        {
+            for (int i = 1; i < 10; i++)
+            {
+                Console.WriteLine($"\tProducing {i}");
+                yield return i;
+            }
+        }
+        #endregion
 
     }
 }

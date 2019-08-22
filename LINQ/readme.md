@@ -12,4 +12,5 @@ You can explore LINQ in this interactive tutorial. Each lesson teaches a new LIN
 ## Lessons in this tutorial
 
 - [LINQ Query Syntax](docs/query-syntax.md)
+- [Understand query evaluation](docs/lazy-evaluation.md)
 - More in upcoming PRs
