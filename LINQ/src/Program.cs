@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace LINQ
@@ -23,26 +24,24 @@ namespace LINQ
         {
             return region switch
             {
-                "HelloWorld" => HelloWorld(),
-                "DateTime" => DateTime(),
+                "query-syntax" => QuerySyntax(),
                 _ => throw new ArgumentException("A --region argument must be passed", nameof(region))
             };
         }
 
-        internal static int HelloWorld()
+        internal static int QuerySyntax()
         {
-            #region HelloWorld
-            Console.WriteLine("Hello World!");
+            #region query-syntax
+            var sequence = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            var squaresOfOddNumbers = from n in sequence
+                                      where n % 2 == 1
+                                      select n * n;
+
+            foreach (var number in squaresOfOddNumbers)
+                Console.WriteLine(number);
             #endregion
             return 0;
         }
 
-        internal static int DateTime()
-        {
-            #region DateTime
-            Console.WriteLine(System.DateTime.Now);
-            #endregion
-            return 0;
-        }
     }
 }
