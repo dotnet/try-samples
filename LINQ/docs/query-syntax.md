@@ -21,7 +21,7 @@ Next, you write any number of *transformations*:
 where n % 2 == 1
 ```
 
-Every *transformation* produces an output sequence from its input sequence. This transformation is a *filter*. The elements from the input sequence that satisfy the condition `n % 2 == 1` are produced as the output sequence. As you work through more lessons in this tutorial, you'll create more complicated transformations. Another common transformation is to *order* the results. Add the following line between the `where` clause and the `select` clause:
+Every *transformation* produces an output sequence from its input sequence. This transformation is a *filter*. The `where` keyword defines a filter. The code `n % 2 == 1` is a *lambda expression* that defines the condition for elements that pass the filter. As you work through more lessons in this tutorial, you'll create more complicated transformations. These transformations use *lambda expressions* that can be more complicated expressions to define the behavior of the query. Another common transformation is to *order* the results. Add the following line between the `where` clause and the `select` clause:
 
 ```csharp
 orderby n descending
