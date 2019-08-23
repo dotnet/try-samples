@@ -20,7 +20,7 @@ First, notice that the messages generated from creating the sequence are intersp
 
 Modify the code that generates the sequence, or the code that modifies the sequence to explore on your own.  For a few examples, try the following:
 
-1. Modify the generator to create all the even numbers, then all the odd numbers:
+- Modify the generator to create all the even numbers, then all the odd numbers:
 ```csharp
 for (int i = 2; i < 10; i += 2)
 {
@@ -33,9 +33,24 @@ for (int i = 1; i < 10; i += 2)
     yield return i;
 }
 ```
-1. Modify the consumer to change which elements are filtered:
+- Modify the consumer to change which elements are filtered:
 ```csharp
 where n % 2 == 0
 ```
+- Turn that single query into multiple queries:
+```csharp
+var numbers = from n in GenerateSequence()
+              select n;
+var oddNumbers = from p in numbers
+                 where p % 2 == 1
+                 select p;
+var squares = from s in oddNumbers
+              select n * n;
+```
+- Add loops to display the output of each of those separate queries. 
 
 Try your own ideas.
+
+The preceding suggestion shows two key advantages to the lazy evaluation used by LINQ. LINQ queries *compose* well. You can create queries or methods that return the results of queries. Those queries can be combined easily to perform very sophisticated algorithms. Combining smaller and simpler queries creates more readable code without sacrificing other design considerations.
+
+The other advantage to lazy evaluation and composition is that each element of the input sequence is processed in turn, and each element of the output sequence is processed in turn. That means it's not necessary to story interim results in memory.
