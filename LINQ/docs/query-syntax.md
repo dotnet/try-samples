@@ -38,3 +38,5 @@ select n * n;
 Every query ends with a *projection* that produces either a new sequence, or a single value. This first example produces a sequence where every element is the square of the input sequence.
 
 You can modify any of these sections in the query and run it yourself.
+
+**Next: [Lazy evaluations  &raquo;](./lazy-evaluation.md) Previous: [Home &laquo;](../README.md)**
