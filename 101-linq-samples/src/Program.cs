@@ -25,13 +25,13 @@ namespace Try101LinqSamples
                 "where-drilldown"           => new Restrictions().DisplayCustomerOrders(),
                 "where-indexed"             => new Restrictions().IndexedWhere(),
                 null                        => RunAll(),
-                _                           => MissingRegionTag(),
+                _                           => MissingRegionTag(region),
             };
         }
 
-        private static int MissingRegionTag()
+        private static int MissingRegionTag(string region)
         {
-            Console.WriteLine("Tag not found!");
+            Console.WriteLine($"No code snippet configured for {region}");
             return 1;
         }
         private static int RunAll()
