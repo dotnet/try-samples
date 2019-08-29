@@ -38,3 +38,5 @@ This sample demonstrates an indexed Where clause that returns digits whose name 
 ```
 
 Notice that this final example shows the `Where` method rather than the `where` clause. The two forms are equivalent.
+
+**Next: [Projection operators  &raquo;](./projections.md) Previous: [Home &laquo;](../README.md)**

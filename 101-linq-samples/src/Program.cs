@@ -24,6 +24,24 @@ namespace Try101LinqSamples
                 "where-multiple-properties" => new Restrictions().ExpensiveProductsInStock(),
                 "where-drilldown"           => new Restrictions().DisplayCustomerOrders(),
                 "where-indexed"             => new Restrictions().IndexedWhere(),
+
+                "select-syntax"             => new Projections().SelectSyntax(),
+                "select-property"           => new Projections().SelectProperty(),
+                "select-transform"          => new Projections().TransformWithSelect(),
+                "select-case-anonymous"     => new Projections().SelectByCaseAnonymous(),
+                "select-case-tuple"         => new Projections().SelectByCaseTuple(),
+                "select-new-type"           => new Projections().SelectAnonymousConstructions(),
+                "select-new-type-tuple"     => new Projections().SelectTupleConstructions(),
+                "select-subset-properties"  => new Projections().SelectPropertySubset(),
+                "select-with-index"         => new Projections().SelectWithIndex(),
+                "select-with-where"         => new Projections().SelectWithWhere(),
+                "select-many-syntax"        => new Projections().SelectFromMultipleSequences(),
+                "select-many-drilldown"     => new Projections().SelectFromChildSequence(),
+                "select-many-filter"        => new Projections().SelectManyWithWhere(),
+                "select-many-assignment"    => new Projections().SelectManyWhereAssignment(),
+                "multiple-where-clauses"    => new Projections().SelectMultipleWhereClauses(),
+                "indexed-select-many"       => new Projections().IndexedSelectMany(),
+
                 null                        => RunAll(),
                 _                           => MissingRegionTag(region),
             };
@@ -36,11 +54,31 @@ namespace Try101LinqSamples
         }
         private static int RunAll()
         {
+            // 1- 5
             new Restrictions().LowNumbers();
             new Restrictions().ProductsOutOfStock();
             new Restrictions().ExpensiveProductsInStock();
             new Restrictions().DisplayCustomerOrders();
             new Restrictions().IndexedWhere();
+
+            // 6 - 19 (+ 2 for tuples)
+            new Projections().SelectSyntax();
+            new Projections().SelectProperty();
+            new Projections().TransformWithSelect();
+            new Projections().SelectByCaseAnonymous();
+            new Projections().SelectByCaseTuple();
+            new Projections().SelectAnonymousConstructions();
+            new Projections().SelectTupleConstructions();
+            new Projections().SelectPropertySubset();
+            new Projections().SelectWithIndex();
+            new Projections().SelectWithWhere();
+            new Projections().SelectFromMultipleSequences();
+            new Projections().SelectFromChildSequence(); 
+            new Projections().SelectManyWithWhere();
+            new Projections().SelectManyWhereAssignment();
+            new Projections().SelectMultipleWhereClauses();
+            new Projections().IndexedSelectMany();
+
             return 0;
         }
     }
