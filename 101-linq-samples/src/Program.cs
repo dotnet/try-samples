@@ -17,9 +17,30 @@ namespace Try101LinqSamples
             string project = null,
             string[] args = null)
         {
+            return region switch
+            {
+                "where-syntax"              => new Restrictions().LowNumbers(),
+                "where-property"            => new Restrictions().ProductsOutOfStock(),
+                "where-multiple-properties" => new Restrictions().ExpensiveProductsInStock(),
+                "where-drilldown"           => new Restrictions().DisplayCustomerOrders(),
+                "where-indexed"             => new Restrictions().IndexedWhere(),
+                null                        => RunAll(),
+                _                           => MissingRegionTag(),
+            };
+        }
 
+        private static int MissingRegionTag()
+        {
+            Console.WriteLine("Tag not found!");
+            return 1;
+        }
+        private static int RunAll()
+        {
             new Restrictions().LowNumbers();
             new Restrictions().ProductsOutOfStock();
+            new Restrictions().ExpensiveProductsInStock();
+            new Restrictions().DisplayCustomerOrders();
+            new Restrictions().IndexedWhere();
             return 0;
         }
     }

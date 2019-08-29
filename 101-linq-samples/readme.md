@@ -11,12 +11,12 @@ Learn how to use LINQ in your applications with these code samples, covering the
 
 These lessons are organized according to the operations used:
 
-### Restriction operators
+### [Restriction operators](docs/restrictions.md)
 
 These operators restrict, or filter, the input sequence to produce an output sequence.
 
-- Where - Simple 1
-- Where - Simple 2
-- Where - Simple 3
-- Where - Drilldown
-- Where - Indexed
+- [Where clause syntax](docs/restrictions.md#where-clause-syntax)
+- [Where clause using a property](docs/restrictions.md#restrict-elements-based-on-a-property)
+- [Where clause with multiple conditions](docs/restrictions.md#restrict-elements-based-on-multiple-conditions)
+- [Where clause drilldown into results](docs/restrictions.md#drilldown-into-output-elements)
+- [Where clause with element index](docs/restrictions.md#using-the-indexed-where-method)
