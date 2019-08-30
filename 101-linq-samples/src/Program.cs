@@ -51,14 +51,35 @@ namespace Try101LinqSamples
                 "skipwhile-syntax"          => new Partitions().SkipWhileSyntax(),
                 "indexed-skipwhile"         => new Partitions().IndexedSkipWhile(),
 
-                null                        => RunAll(),
-                _                           => MissingRegionTag(region),
+                "orderby-syntax"            => new Orderings().OrderbySyntax(),
+                "orderby-property"          => new Orderings().OrderbyProperty(),
+                "orderby-user-types"        => new Orderings().OrderByProducts(),
+                "custom-comparer"           => session switch
+                    {
+                        "orderby-custom"    => new Orderings().OrderByWithCustomComparer(),
+                        "descending-custom" => new Orderings().DescendingCustomComparer(),
+                        "thenby-custom"     => new Orderings().ThenByCustom(),
+                        "thenbydesc-custom" => new Orderings().CustomThenByDescending(),
+                        _                   => MissingTag(session, false),
+                    },
+                "orderby-custom-comparer"   => new Orderings().OrderByWithCustomComparer(),
+                "orderbydescending-syntax"  => new Orderings().OrderByDescendingSyntax(),
+                "orderby-descending-type"   => new Orderings().OrderProductsDescending(),
+                "desc-custom-comparer"      => new Orderings().DescendingCustomComparer(),
+                "thenby-syntax"             => new Orderings().ThenBySyntax(),
+                "thenby-custom"             => new Orderings().ThenByCustom(),
+                "thenby-ordering"           => new Orderings().ThenByDifferentOrdering(),
+                "thenby-custom-descending"  => new Orderings().CustomThenByDescending(),
+                "reverse"                   => new Orderings().OrderingReversal(),
+
+                null => RunAll(),
+                _                           => MissingTag(region),
             };
         }
 
-        private static int MissingRegionTag(string region)
+        private static int MissingTag(string tag, bool region = true)
         {
-            Console.WriteLine($"No code snippet configured for {region}");
+            Console.WriteLine($"No code snippet configured for {(region ? "region" : "session")}: {tag}");
             return 1;
         }
         private static int RunAll()
@@ -98,6 +119,19 @@ namespace Try101LinqSamples
             new Partitions().SkipWhileSyntax();
             new Partitions().IndexedSkipWhile();
 
+            // Ordering: 28-39
+            new Orderings().OrderbySyntax();
+            new Orderings().OrderbyProperty();
+            new Orderings().OrderByProducts();
+            new Orderings().OrderByWithCustomComparer();
+            new Orderings().OrderByDescendingSyntax();
+            new Orderings().OrderProductsDescending();
+            new Orderings().DescendingCustomComparer();
+            new Orderings().ThenBySyntax();
+            new Orderings().ThenByCustom();
+            new Orderings().ThenByDifferentOrdering();
+            new Orderings().CustomThenByDescending();
+            new Orderings().OrderingReversal();
             return 0;
         }
     }

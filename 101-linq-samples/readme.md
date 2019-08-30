@@ -48,3 +48,17 @@ These operators restrict, or filter, the input sequence to produce an output seq
 - [Indexed TakeWhile method](docs/partitions-2.md#indexed-takewhile)
 - [SkipWhile method syntax](docs/partitions-2.md#skipwhile-syntax)
 - [Indexed SkipWhile method](docs/partitions-2.md#indexed-skipwhile)
+
+## [Ordering Operators](docs/ordering.md)
+
+- [Orderby syntax](docs/orderings.md#orderby-syntax)
+- [Orderby using a single property](docs/orderings.md#orderby-property)
+- [Orderby for user defined types](docs/orderings.md#ordering-user-defined-types)
+- [Orderby with a custom compare function](docs/orderings.md#ordering-with-a-custom-comparer)
+- [Orderby descending for user defined types](docs/orderings.md#descending-ordering-user-defined-types)
+- [Orderby descending with a custom compare function](docs/orderings-2.md#descending-orders-with-a-custom-comparer)
+- [Thenby syntax](docs/orderings-3.md#orderby-multiple-properties)
+- [Thenby using a comparer](docs/orderings-3.md#multiple-ordering-with-a-custom-comparer)
+- [Thenby descending](docs/orderings-3.md#multiple-ordering-descending)
+- [Thenby descending using a comparer](docs/orderings-3.md#multiple-descending-order-with-a-custom-comparer)
+- [Reverse the input sequence](docs/orderings-3.md#reverse-the-sequence)
