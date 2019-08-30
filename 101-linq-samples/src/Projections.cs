@@ -210,7 +210,10 @@ namespace Try101LinqSamples
                          where o.Total < 500.00M
                          select (c.CustomerID, o.OrderID, o.Total);
 
-            ObjectDumper.Write(orders);
+            foreach(var order in orders)
+            {
+                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}, Total value: {order.Total}");
+            }
             #endregion
             return 1;
         }
@@ -225,7 +228,10 @@ namespace Try101LinqSamples
                          where o.OrderDate >= new DateTime(1998, 1, 1)
                          select (c.CustomerID, o.OrderID, o.OrderDate);
 
-            ObjectDumper.Write(orders);
+            foreach (var order in orders)
+            {
+                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}, Total date: {order.OrderDate.ToShortDateString()}");
+            }
             #endregion
             return 0;
         }
@@ -240,7 +246,10 @@ namespace Try101LinqSamples
                          where o.Total >= 2000.0M
                          select (c.CustomerID, o.OrderID, o.Total);
 
-            ObjectDumper.Write(orders);
+            foreach (var order in orders)
+            {
+                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}, Total value: {order.Total}");
+            }
             #endregion
             return 0;
         }
@@ -258,7 +267,10 @@ namespace Try101LinqSamples
                          where o.OrderDate >= cutoffDate
                          select (c.CustomerID, o.OrderID);
 
-            ObjectDumper.Write(orders);
+            foreach (var order in orders)
+            {
+                Console.WriteLine($"Customer: {order.CustomerID}, Order: {order.OrderID}");
+            }
             #endregion
             return 0;
         }
@@ -274,7 +286,10 @@ namespace Try101LinqSamples
                     cust.Orders.Select(o => "Customer #" + (custIndex + 1) +
                                             " has an order with OrderID " + o.OrderID));
 
-            ObjectDumper.Write(customerOrders);
+            foreach (var order in customerOrders)
+            {
+                Console.WriteLine(order);
+            }
             #endregion
             return 0;
         }
