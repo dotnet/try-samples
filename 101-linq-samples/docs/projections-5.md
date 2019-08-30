@@ -24,6 +24,6 @@ This sample uses an indexed SelectMany clause to select all orders, while referr
 ``` cs --region indexed-select-many --source-file ../src/Projections.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Projection operators  &raquo;](./projections.md) Previous: [Restrictions from multiple inputs &laquo;](./restrictions-4.md)**
+**Next: [Partition operators  &raquo;](./partitions.md) Previous: [Restrictions from multiple inputs &laquo;](./projections-4.md)**
 
 **[Home](../README.md)**

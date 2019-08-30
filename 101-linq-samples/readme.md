@@ -37,3 +37,14 @@ These operators restrict, or filter, the input sequence to produce an output seq
 - [Select many with assignment](docs/projections-5.md#compound-select-with-where-and-assignment)
 - [Select many with multiple filters](docs/projections-5.md#compound-select-with-multiple-where-clauses)
 - [Select many with element index](docs/projections-5.md#compound-select-with-index)
+
+## [Partition operators](docs/partitions.md)
+
+- [Take method syntax](docs/partitions.md#take-syntax)
+- [Nested take method call](docs/partitions.md#nested-take-partitions)
+- [Skip method syntax](docs/partitions.md#skip-syntax)
+- [Nested skip method call](docs/partitions.md#nested-skip-partitions)
+- [TakeWhile method syntax](docs/partitions-2.md#takewhile-syntax)
+- [Indexed TakeWhile method](docs/partitions-2.md#indexed-takewhile)
+- [SkipWhile method syntax](docs/partitions-2.md#skipwhile-syntax)
+- [Indexed SkipWhile method](docs/partitions-2.md#indexed-skipwhile)

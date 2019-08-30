@@ -42,6 +42,15 @@ namespace Try101LinqSamples
                 "multiple-where-clauses"    => new Projections().SelectMultipleWhereClauses(),
                 "indexed-select-many"       => new Projections().IndexedSelectMany(),
 
+                "take-syntax"               => new Partitions().TakeSyntax(),
+                "nested-take"               => new Partitions().NestedTake(),
+                "skip-syntax"               => new Partitions().SkipSyntax(),
+                "nested-skip"               => new Partitions().NestedSkip(),
+                "takewhile-syntax"          => new Partitions().TakeWhileSyntax(),
+                "indexed-takewhile"         => new Partitions().IndexedTakeWhile(),
+                "skipwhile-syntax"          => new Partitions().SkipWhileSyntax(),
+                "indexed-skipwhile"         => new Partitions().IndexedSkipWhile(),
+
                 null                        => RunAll(),
                 _                           => MissingRegionTag(region),
             };
@@ -78,6 +87,16 @@ namespace Try101LinqSamples
             new Projections().SelectManyWhereAssignment();
             new Projections().SelectMultipleWhereClauses();
             new Projections().IndexedSelectMany();
+
+            // 20 - 27
+            new Partitions().TakeSyntax();
+            new Partitions().NestedTake();
+            new Partitions().SkipSyntax();
+            new Partitions().NestedSkip();
+            new Partitions().TakeWhileSyntax();
+            new Partitions().IndexedTakeWhile();
+            new Partitions().SkipWhileSyntax();
+            new Partitions().IndexedSkipWhile();
 
             return 0;
         }

@@ -23,7 +23,7 @@ This sample uses a compound from clause to select all orders where the order was
 ``` cs --region select-many-filter --source-file ../src/Projections.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Compound projections  &raquo;](./projections-5.md) Previous: [Restrictions with index and where &laquo;](./restrictions-4.md)**
+**Next: [Compound projections  &raquo;](./projections-5.md) Previous: [Restrictions with index and where &laquo;](./projections-3.md)**
 
 **[Home](../README.md)**
 

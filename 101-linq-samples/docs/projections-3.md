@@ -16,6 +16,6 @@ This sample combines select and where to make a simple query that returns the te
 ``` cs --region select-with-where --source-file ../src/Projections.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Projections from multiple inputs  &raquo;](./projections-4.md) Previous: [Projects to new types &laquo;](./restrictions-2.md)**
+**Next: [Projections from multiple inputs  &raquo;](./projections-4.md) Previous: [Projects to new types &laquo;](./projections-2.md)**
 
 **[Home](../README.md)**
