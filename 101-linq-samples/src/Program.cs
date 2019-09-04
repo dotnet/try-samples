@@ -56,11 +56,11 @@ namespace Try101LinqSamples
                 "orderby-user-types"        => new Orderings().OrderByProducts(),
                 "custom-comparer"           => session switch
                     {
-                        "orderby-custom"    => new Orderings().OrderByWithCustomComparer(),
-                        "descending-custom" => new Orderings().DescendingCustomComparer(),
-                        "thenby-custom"     => new Orderings().ThenByCustom(),
-                        "thenbydesc-custom" => new Orderings().CustomThenByDescending(),
-                        _                   => MissingTag(session, false),
+                        "orderby-custom"                    => new Orderings().OrderByWithCustomComparer(),
+                        "orderby-custom-descending"         => new Orderings().DescendingCustomComparer(),
+                        "orderby-custom-thenby"             => new Orderings().ThenByCustom(),
+                        "orderby-custom-descending-thenby"  => new Orderings().CustomThenByDescending(),
+                        _                                   => MissingTag(session, false),
                     },
                 "orderby-custom-comparer"   => new Orderings().OrderByWithCustomComparer(),
                 "orderbydescending-syntax"  => new Orderings().OrderByDescendingSyntax(),
