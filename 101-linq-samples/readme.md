@@ -7,34 +7,38 @@
 
 Learn how to use LINQ in your applications with these code samples, covering the entire range of LINQ functionality and demonstrating LINQ with objects, Entity Framework, and XML.
 
-## Lessons in this tutorial
+## Exploring LINQ using this tutorial
 
-These lessons are organized according to the operations used:
+This tutorial starts with the [fundamentals of LINQ](docs/restrictions.md). You can follow each page in order to explore all the elements of LINQ. Following step-by-step lets you explore LINQ from these fundamental queries through more complicated queries, up to the most complex uses.
+
+Alternatively, if you've got some exposure to LINQ, you can jump to a specific section to refresh your knowledge, or learn techniques you aren't familiar with. Here is the full list of samples:
 
 ### [Restriction operators](docs/restrictions.md)
 
-These operators restrict, or filter, the input sequence to produce an output sequence.
+The `where` keyword or `Where` method provide this capability. These operators restrict, or filter, the input sequence to produce an output sequence.
 
-- [Where clause syntax](docs/restrictions.md#where-clause-syntax)
-- [Where clause using a property](docs/restrictions.md#restrict-elements-based-on-a-property)
-- [Where clause with multiple conditions](docs/restrictions.md#restrict-elements-based-on-multiple-conditions)
-- [Where clause drilldown into results](docs/restrictions.md#drilldown-into-output-elements)
-- [Where clause with element index](docs/restrictions.md#using-the-indexed-where-method)
+- [Your first query](docs/restrictions.md#where-clause-syntax)
+- [Filter using a property of the input sequence](docs/restrictions.md#restrict-elements-based-on-a-property)
+- [Filter using multiple conditions](docs/restrictions.md#restrict-elements-based-on-multiple-conditions)
+- [Filter and drilldown into the output elements](docs/restrictions.md#drilldown-into-output-elements)
+- [Filter using the input sequence index](docs/restrictions.md#using-the-indexed-where-method)
 
 ### [Projection operators](docs/projections.md)
 
-- [Select clause syntax](docs/projections.md#select-clause-syntax)
-- [Select a single property](docs/projections.md#select-a-single-property)
-- [Transform types with select](docs/projections.md#transform-with-select)
-- [Select a new type](docs/projections-2.md#select-anonymous-types-or-tuples)
+The `select` keyword or `Select` method provide this capability. These operators create output sequence elements from input sequence elements. The output elements may be either the same or different types.
+
+- [Fundamentals of select](docs/projections.md#select-clause-syntax)
+- [Select one property the input elements](docs/projections.md#select-a-single-property)
+- [Transform to an element of another sequence](docs/projections.md#transform-with-select)
+- [Select anonymous types or tuples](docs/projections-2.md#select-anonymous-types-or-tuples)
 - [Create new types with select](docs/projections-2.md#use-select-to-create-new-types)
-- [Select a subset of properties](docs/projections-2.md#select-a-subset-of-properties)
-- [Select including the index of source item](docs/projections-3.md#select-with-index-of-item)
+- [Select a subset of properties into a new type](docs/projections-2.md#select-a-subset-of-properties)
+- [Select the index of source item](docs/projections-3.md#select-with-index-of-item)
 - [Combine select and where](docs/projections-3.md#select-combined-with-where)
-- [Select from multiple sequences](docs/projections-4.md#select-from-multiple-input-sequences)
+- [Combine multiple input sequences](docs/projections-4.md#select-from-multiple-input-sequences)
 - [Select from related input sequences](docs/projections-4.md#select-from-related-input-sequences)
-- [Select multiple sequences with where](docs/projections-4.md#compound-select-with-where-clause)
-- [Select many with assignment](docs/projections-5.md#compound-select-with-where-and-assignment)
+- [Select multiple sequences with filters](docs/projections-4.md#compound-select-with-where-clause)
+- [Select from related sequences ](docs/projections-5.md#compound-select-with-where-and-assignment)
 - [Select many with multiple filters](docs/projections-5.md#compound-select-with-multiple-where-clauses)
 - [Select many with element index](docs/projections-5.md#compound-select-with-index)
 
