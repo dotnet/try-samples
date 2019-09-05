@@ -19,6 +19,6 @@ This sample uses an OrderBy and a ThenBy clause with a custom comparer to sort f
 ``` cs --region thenby-custom-descending --session orderby-custom-descending-thenby --source-file ../src/Orderings.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Custom comparisons with ThenBy &raquo;](./orderings-5.md) Previous: [Custom comparisons &laquo;](./orderings-4.md)**
+**Next: [Grouping operators &raquo;](./groupings.md) Previous: [Custom comparisons &laquo;](./orderings-4.md)**
 
 **[Home](../README.md)**

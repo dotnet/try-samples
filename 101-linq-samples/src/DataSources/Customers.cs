@@ -15,8 +15,9 @@ namespace Try101LinqSamples
         public string PostalCode { get; set; }
         public string Country { get; set; }
         public string Phone { get; set; }
-        public string Fax { get; set; }
         public Order[] Orders { get; set; }
+        public override string ToString() => 
+            $"{CustomerID} {CompanyName}\n{Address}\n{City}, {Region} {PostalCode} {Country}\n{Phone}";
     }
 
     public class Order
@@ -24,6 +25,7 @@ namespace Try101LinqSamples
         public int OrderID { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal Total { get; set; }
+        public override string ToString() => $"{OrderID}: {OrderDate:d} for {Total:C2}";
     }
 
     public static class Customers
@@ -40,7 +42,6 @@ namespace Try101LinqSamples
                  PostalCode = (string)e.Element("postalcode"),
                  Country = (string)e.Element("country"),
                  Phone = (string)e.Element("phone"),
-                 Fax = (string)e.Element("fax"),
                  Orders = (
                     from o in e.Elements("orders").Elements("order")
                     select new Order

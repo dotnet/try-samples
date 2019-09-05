@@ -14,7 +14,6 @@
     <postalcode>12209</postalcode>
     <country>Germany</country>
     <phone>030-0074321</phone>
-    <fax>030-0076545</fax>
     <orders>
       <order>
         <id>10643</id>
@@ -56,7 +55,6 @@
     <postalcode>05021</postalcode>
     <country>Mexico</country>
     <phone>(5) 555-4729</phone>
-    <fax>(5) 555-3745</fax>
     <orders>
       <order>
         <id>10308</id>
@@ -134,7 +132,6 @@
     <postalcode>WA1 1DP</postalcode>
     <country>UK</country>
     <phone>(171) 555-7788</phone>
-    <fax>(171) 555-6750</fax>
     <orders>
       <order>
         <id>10355</id>
@@ -211,7 +208,6 @@
     <postalcode>S-958 22</postalcode>
     <country>Sweden</country>
     <phone>0921-12 34 65</phone>
-    <fax>0921-12 34 67</fax>
     <orders>
       <order>
         <id>10278</id>
@@ -313,7 +309,6 @@
     <postalcode>68306</postalcode>
     <country>Germany</country>
     <phone>0621-08460</phone>
-    <fax>0621-08924</fax>
     <orders>
       <order>
         <id>10501</id>
@@ -360,7 +355,6 @@
     <postalcode>67000</postalcode>
     <country>France</country>
     <phone>88.60.15.31</phone>
-    <fax>88.60.15.32</fax>
     <orders>
       <order>
         <id>10265</id>
@@ -427,7 +421,6 @@
     <postalcode>28023</postalcode>
     <country>Spain</country>
     <phone>(91) 555 22 82</phone>
-    <fax>(91) 555 91 99</fax>
     <orders>
       <order>
         <id>10326</id>
@@ -454,7 +447,6 @@
     <postalcode>13008</postalcode>
     <country>France</country>
     <phone>91.24.45.40</phone>
-    <fax>91.24.45.41</fax>
     <orders>
       <order>
         <id>10331</id>
@@ -552,7 +544,6 @@
     <postalcode>T2F 8M4</postalcode>
     <country>Canada</country>
     <phone>(604) 555-4729</phone>
-    <fax>(604) 555-3745</fax>
     <orders>
       <order>
         <id>10389</id>
@@ -695,7 +686,6 @@
     <postalcode>1010</postalcode>
     <country>Argentina</country>
     <phone>(1) 135-5555</phone>
-    <fax>(1) 135-4892</fax>
     <orders>
       <order>
         <id>10521</id>
@@ -737,7 +727,6 @@
     <postalcode>05022</postalcode>
     <country>Mexico</country>
     <phone>(5) 555-3392</phone>
-    <fax>(5) 555-7293</fax>
     <orders>
       <order>
         <id>10259</id>
@@ -842,7 +831,6 @@
     <postalcode>WX1 6LT</postalcode>
     <country>UK</country>
     <phone>(171) 555-2282</phone>
-    <fax>(171) 555-9199</fax>
     <orders>
       <order>
         <id>10435</id>
@@ -869,7 +857,6 @@
     <postalcode>52066</postalcode>
     <country>Germany</country>
     <phone>0241-039123</phone>
-    <fax>0241-059428</fax>
     <orders>
       <order>
         <id>10363</id>
@@ -911,7 +898,6 @@
     <postalcode>44000</postalcode>
     <country>France</country>
     <phone>40.67.88.88</phone>
-    <fax>40.67.89.89</fax>
     <orders>
       <order>
         <id>10311</id>
@@ -943,7 +929,6 @@
     <postalcode>WX3 6FW</postalcode>
     <country>UK</country>
     <phone>(171) 555-0297</phone>
-    <fax>(171) 555-3373</fax>
     <orders>
       <order>
         <id>10364</id>
@@ -995,7 +980,6 @@
     <postalcode>8010</postalcode>
     <country>Austria</country>
     <phone>7675-3425</phone>
-    <fax>7675-3426</fax>
     <orders>
       <order>
         <id>10258</id>
@@ -1204,7 +1188,6 @@
     <postalcode>28034</postalcode>
     <country>Spain</country>
     <phone>(91) 555 94 44</phone>
-    <fax>(91) 555 55 93</fax>
     <orders />
   </customer>
   <customer>
@@ -1215,7 +1198,6 @@
     <postalcode>59000</postalcode>
     <country>France</country>
     <phone>20.16.10.16</phone>
-    <fax>20.16.10.17</fax>
     <orders>
       <order>
         <id>10408</id>
@@ -1358,7 +1340,6 @@
     <postalcode>80805</postalcode>
     <country>Germany</country>
     <phone>089-0877310</phone>
-    <fax>089-0877451</fax>
     <orders>
       <order>
         <id>10267</id>
@@ -1445,7 +1426,6 @@
     <postalcode>44000</postalcode>
     <country>France</country>
     <phone>40.32.21.21</phone>
-    <fax>40.32.21.20</fax>
     <orders>
       <order>
         <id>10671</id>
@@ -1472,7 +1452,6 @@
     <postalcode>10100</postalcode>
     <country>Italy</country>
     <phone>011-4988260</phone>
-    <fax>011-4988261</fax>
     <orders>
       <order>
         <id>10422</id>
@@ -1514,7 +1493,6 @@
     <postalcode>1675</postalcode>
     <country>Portugal</country>
     <phone>(1) 354-2534</phone>
-    <fax>(1) 354-2535</fax>
     <orders>
       <order>
         <id>10328</id>
@@ -1566,7 +1544,6 @@
     <postalcode>08022</postalcode>
     <country>Spain</country>
     <phone>(93) 203 4560</phone>
-    <fax>(93) 203 4561</fax>
     <orders>
       <order>
         <id>10366</id>
@@ -1789,7 +1766,6 @@
     <postalcode>1081</postalcode>
     <country>Venezuela</country>
     <phone>(2) 283-2951</phone>
-    <fax>(2) 283-3397</fax>
     <orders>
       <order>
         <id>10268</id>
@@ -1812,7 +1788,6 @@
     <postalcode>05454-876</postalcode>
     <country>Brazil</country>
     <phone>(21) 555-0091</phone>
-    <fax>(21) 555-8765</fax>
     <orders>
       <order>
         <id>10250</id>
@@ -1895,7 +1870,6 @@
     <postalcode>5022</postalcode>
     <country>Venezuela</country>
     <phone>(5) 555-1340</phone>
-    <fax>(5) 555-1948</fax>
     <orders>
       <order>
         <id>10257</id>
@@ -1998,7 +1972,6 @@
     <postalcode>97827</postalcode>
     <country>USA</country>
     <phone>(503) 555-6874</phone>
-    <fax>(503) 555-2376</fax>
     <orders>
       <order>
         <id>10375</id>
@@ -2035,7 +2008,6 @@
     <region>Co.Cork</region>
     <country>Ireland</country>
     <phone>2967 542</phone>
-    <fax>2967 3333</fax>
     <orders>
       <order>
         <id>10298</id>
@@ -2285,7 +2257,6 @@
     <postalcode>78000</postalcode>
     <country>France</country>
     <phone>30.59.84.10</phone>
-    <fax>30.59.85.11</fax>
     <orders>
       <order>
         <id>10858</id>
@@ -2317,7 +2288,6 @@
     <postalcode>31000</postalcode>
     <country>France</country>
     <phone>61.77.61.10</phone>
-    <fax>61.77.61.11</fax>
     <orders>
       <order>
         <id>10350</id>
@@ -2400,7 +2370,6 @@
     <postalcode>V3F 2K1</postalcode>
     <country>Canada</country>
     <phone>(604) 555-3392</phone>
-    <fax>(604) 555-7293</fax>
     <orders>
       <order>
         <id>10495</id>
@@ -2428,7 +2397,6 @@
     <postalcode>99362</postalcode>
     <country>USA</country>
     <phone>(509) 555-7969</phone>
-    <fax>(509) 555-6221</fax>
     <orders>
       <order>
         <id>10482</id>
@@ -2450,7 +2418,6 @@
     <postalcode>60528</postalcode>
     <country>Germany</country>
     <phone>069-0245984</phone>
-    <fax>069-0245874</fax>
     <orders>
       <order>
         <id>10279</id>
@@ -2570,7 +2537,6 @@
     <postalcode>3508</postalcode>
     <country>Venezuela</country>
     <phone>(9) 331-6954</phone>
-    <fax>(9) 331-7256</fax>
     <orders>
       <order>
         <id>10283</id>
@@ -2653,7 +2619,6 @@
     <postalcode>4980</postalcode>
     <country>Venezuela</country>
     <phone>(8) 34-56-12</phone>
-    <fax>(8) 34-93-93</fax>
     <orders>
       <order>
         <id>10405</id>
@@ -2726,7 +2691,6 @@
     <postalcode>97219</postalcode>
     <country>USA</country>
     <phone>(503) 555-9573</phone>
-    <fax>(503) 555-9646</fax>
     <orders>
       <order>
         <id>10307</id>
@@ -2778,7 +2742,6 @@
     <postalcode>24100</postalcode>
     <country>Italy</country>
     <phone>035-640230</phone>
-    <fax>035-640231</fax>
     <orders>
       <order>
         <id>10275</id>
@@ -2840,7 +2803,6 @@
     <postalcode>B-1180</postalcode>
     <country>Belgium</country>
     <phone>(02) 201 24 67</phone>
-    <fax>(02) 201 24 68</fax>
     <orders>
       <order>
         <id>10529</id>
@@ -2888,7 +2850,6 @@
     <postalcode>H1J 1C3</postalcode>
     <country>Canada</country>
     <phone>(514) 555-8054</phone>
-    <fax>(514) 555-8055</fax>
     <orders>
       <order>
         <id>10332</id>
@@ -3001,7 +2962,6 @@
     <postalcode>SW7 1RZ</postalcode>
     <country>UK</country>
     <phone>(171) 555-7733</phone>
-    <fax>(171) 555-2530</fax>
     <orders>
       <order>
         <id>10517</id>
@@ -3028,7 +2988,6 @@
     <postalcode>1010</postalcode>
     <country>Argentina</country>
     <phone>(1) 135-5333</phone>
-    <fax>(1) 135-5535</fax>
     <orders>
       <order>
         <id>10409</id>
@@ -3066,7 +3025,6 @@
     <postalcode>99508</postalcode>
     <country>USA</country>
     <phone>(907) 555-7584</phone>
-    <fax>(907) 555-2880</fax>
     <orders>
       <order>
         <id>10260</id>
@@ -3128,7 +3086,6 @@
     <postalcode>50739</postalcode>
     <country>Germany</country>
     <phone>0221-0644327</phone>
-    <fax>0221-0765721</fax>
     <orders>
       <order>
         <id>10407</id>
@@ -3185,7 +3142,6 @@
     <postalcode>75012</postalcode>
     <country>France</country>
     <phone>(1) 42.34.22.66</phone>
-    <fax>(1) 42.34.22.77</fax>
     <orders />
   </customer>
   <customer>
@@ -3196,7 +3152,6 @@
     <postalcode>05033</postalcode>
     <country>Mexico</country>
     <phone>(5) 552-3745</phone>
-    <fax>(5) 545-3745</fax>
     <orders>
       <order>
         <id>10322</id>
@@ -3238,7 +3193,6 @@
     <postalcode>5020</postalcode>
     <country>Austria</country>
     <phone>6562-9722</phone>
-    <fax>6562-9723</fax>
     <orders>
       <order>
         <id>10353</id>
@@ -3342,7 +3296,6 @@
     <postalcode>02389-673</postalcode>
     <country>Brazil</country>
     <phone>(21) 555-4252</phone>
-    <fax>(21) 555-4545</fax>
     <orders>
       <order>
         <id>10261</id>
@@ -3627,7 +3580,6 @@
     <postalcode>1010</postalcode>
     <country>Argentina</country>
     <phone>(1) 123-5555</phone>
-    <fax>(1) 123-5556</fax>
     <orders>
       <order>
         <id>10448</id>
@@ -3665,7 +3617,6 @@
     <postalcode>87110</postalcode>
     <country>USA</country>
     <phone>(505) 555-5939</phone>
-    <fax>(505) 555-3620</fax>
     <orders>
       <order>
         <id>10262</id>
@@ -3767,7 +3718,6 @@
     <postalcode>42100</postalcode>
     <country>Italy</country>
     <phone>0522-556721</phone>
-    <fax>0522-556722</fax>
     <orders>
       <order>
         <id>10288</id>
@@ -3967,7 +3917,6 @@
     <postalcode>28001</postalcode>
     <country>Spain</country>
     <phone>(91) 745 6200</phone>
-    <fax>(91) 745 6210</fax>
     <orders>
       <order>
         <id>10281</id>
@@ -4004,7 +3953,6 @@
     <postalcode>4110</postalcode>
     <country>Norway</country>
     <phone>07-98 92 35</phone>
-    <fax>07-98 92 47</fax>
     <orders>
       <order>
         <id>10387</id>
@@ -4213,7 +4161,6 @@
     <postalcode>OX15 4NB</postalcode>
     <country>UK</country>
     <phone>(171) 555-1717</phone>
-    <fax>(171) 555-5646</fax>
     <orders>
       <order>
         <id>10359</id>
@@ -4270,7 +4217,6 @@
     <postalcode>1734</postalcode>
     <country>Denmark</country>
     <phone>31 12 34 56</phone>
-    <fax>31 13 35 57</fax>
     <orders>
       <order>
         <id>10341</id>
@@ -4317,7 +4263,6 @@
     <postalcode>75016</postalcode>
     <country>France</country>
     <phone>(1) 47.55.60.10</phone>
-    <fax>(1) 47.55.60.20</fax>
     <orders>
       <order>
         <id>10738</id>
@@ -4350,7 +4295,6 @@
     <postalcode>82520</postalcode>
     <country>USA</country>
     <phone>(307) 555-4680</phone>
-    <fax>(307) 555-6525</fax>
     <orders>
       <order>
         <id>10271</id>
@@ -4407,7 +4351,6 @@
     <postalcode>B-6000</postalcode>
     <country>Belgium</country>
     <phone>(071) 23 67 22 20</phone>
-    <fax>(071) 23 67 22 21</fax>
     <orders>
       <order>
         <id>10252</id>
@@ -4512,7 +4455,6 @@
     <postalcode>59801</postalcode>
     <country>USA</country>
     <phone>(406) 555-5834</phone>
-    <fax>(406) 555-8083</fax>
     <orders>
       <order>
         <id>10624</id>
@@ -4539,7 +4481,6 @@
     <postalcode>44087</postalcode>
     <country>Germany</country>
     <phone>0251-031259</phone>
-    <fax>0251-035695</fax>
     <orders>
       <order>
         <id>10438</id>
@@ -4638,7 +4579,6 @@
     <postalcode>05634-030</postalcode>
     <country>Brazil</country>
     <phone>(11) 555-2167</phone>
-    <fax>(11) 555-2168</fax>
     <orders>
       <order>
         <id>10249</id>
@@ -4686,7 +4626,6 @@
     <postalcode>98034</postalcode>
     <country>USA</country>
     <phone>(206) 555-8257</phone>
-    <fax>(206) 555-2174</fax>
     <orders>
       <order>
         <id>10574</id>
@@ -4713,7 +4652,6 @@
     <postalcode>8200</postalcode>
     <country>Denmark</country>
     <phone>86 21 32 43</phone>
-    <fax>86 22 33 44</fax>
     <orders>
       <order>
         <id>10367</id>
@@ -4780,7 +4718,6 @@
     <postalcode>69004</postalcode>
     <country>France</country>
     <phone>78.32.54.86</phone>
-    <fax>78.32.54.87</fax>
     <orders>
       <order>
         <id>10251</id>
@@ -4842,7 +4779,6 @@
     <postalcode>51100</postalcode>
     <country>France</country>
     <phone>26.47.15.10</phone>
-    <fax>26.47.15.11</fax>
     <orders>
       <order>
         <id>10274</id>
@@ -4874,7 +4810,6 @@
     <postalcode>70563</postalcode>
     <country>Germany</country>
     <phone>0711-020361</phone>
-    <fax>0711-035428</fax>
     <orders>
       <order>
         <id>10301</id>
@@ -4936,7 +4871,6 @@
     <postalcode>90110</postalcode>
     <country>Finland</country>
     <phone>981-443655</phone>
-    <fax>981-443655</fax>
     <orders>
       <order>
         <id>10266</id>
@@ -5081,7 +5015,6 @@
     <postalcode>98128</postalcode>
     <country>USA</country>
     <phone>(206) 555-4112</phone>
-    <fax>(206) 555-4115</fax>
     <orders>
       <order>
         <id>10269</id>
@@ -5163,7 +5096,6 @@
     <postalcode>21240</postalcode>
     <country>Finland</country>
     <phone>90-224 8858</phone>
-    <fax>90-224 8858</fax>
     <orders>
       <order>
         <id>10248</id>
@@ -5215,7 +5147,6 @@
     <postalcode>01-012</postalcode>
     <country>Poland</country>
     <phone>(26) 642-7012</phone>
-    <fax>(26) 642-7012</fax>
     <orders>
       <order>
         <id>10374</id>

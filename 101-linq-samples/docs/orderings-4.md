@@ -19,6 +19,6 @@ This sample uses an OrderBy clause with a custom comparer to do a case-insensiti
 ``` cs --region desc-custom-comparer --session orderby-custom-descending --source-file ../src/Orderings.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Custom comparisons &raquo;](./orderings-5.md) Previous: [Orderby thenby &laquo;](./orderings-3.md)**
+**Next: [Nested custom comparisons &raquo;](./orderings-5.md) Previous: [Orderby thenby &laquo;](./orderings-3.md)**
 
 **[Home](../README.md)**

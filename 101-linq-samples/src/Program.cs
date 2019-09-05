@@ -55,13 +55,13 @@ namespace Try101LinqSamples
                 "orderby-property"          => new Orderings().OrderbyProperty(),
                 "orderby-user-types"        => new Orderings().OrderByProducts(),
                 "custom-comparer"           => session switch
-                    {
-                        "orderby-custom"                    => new Orderings().OrderByWithCustomComparer(),
-                        "orderby-custom-descending"         => new Orderings().DescendingCustomComparer(),
-                        "orderby-custom-thenby"             => new Orderings().ThenByCustom(),
-                        "orderby-custom-descending-thenby"  => new Orderings().CustomThenByDescending(),
-                        _                                   => MissingTag(session, false),
-                    },
+                {
+                    "orderby-custom"                    => new Orderings().OrderByWithCustomComparer(),
+                    "orderby-custom-descending"         => new Orderings().DescendingCustomComparer(),
+                    "orderby-custom-thenby"             => new Orderings().ThenByCustom(),
+                    "orderby-custom-descending-thenby"  => new Orderings().CustomThenByDescending(),
+                    _                                   => MissingTag(session, false),
+                },
                 "orderby-custom-comparer"   => new Orderings().OrderByWithCustomComparer(),
                 "orderbydescending-syntax"  => new Orderings().OrderByDescendingSyntax(),
                 "orderby-descending-type"   => new Orderings().OrderProductsDescending(),
@@ -71,6 +71,20 @@ namespace Try101LinqSamples
                 "thenby-ordering"           => new Orderings().ThenByDifferentOrdering(),
                 "thenby-custom-descending"  => new Orderings().CustomThenByDescending(),
                 "reverse"                   => new Orderings().OrderingReversal(),
+
+                "groupby-syntax"            => new Groupings().GroupingSyntax(),
+                "groupby-property"          => new Groupings().GroupByProperty(),
+                "groupby-category"          => new Groupings().GroupByCategory(),
+                "nested-groupby"            => new Groupings().NestedGrouBy(),
+                "anagram-comparer"          => session switch
+                {
+                    "groupby-custom-comparer"   => new Groupings().GroupByCustomComparer(),
+                    "nested-groupby-custom"     => new Groupings().NestedGroupByCustom(),
+                    _                           => MissingTag(session, false),
+
+                },
+                "groupby-custom-comparer"   => new Groupings().GroupByCustomComparer(),
+                "nested-groupby-custom"     => new Groupings().NestedGroupByCustom();
 
                 null => RunAll(),
                 _                           => MissingTag(region),
@@ -132,6 +146,14 @@ namespace Try101LinqSamples
             new Orderings().ThenByDifferentOrdering();
             new Orderings().CustomThenByDescending();
             new Orderings().OrderingReversal();
+
+            // Grouping: 40 - 45
+            new Groupings().GroupingSyntax();
+            new Groupings().GroupByProperty();
+            new Groupings().GroupByCategory();
+            new Groupings().NestedGrouBy();
+            new Groupings().GroupByCustomComparer();
+            new Groupings().NestedGroupByCustom();
             return 0;
         }
     }

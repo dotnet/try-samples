@@ -53,7 +53,7 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [SkipWhile method syntax](docs/partitions-2.md#skipwhile-syntax)
 - [Indexed SkipWhile method](docs/partitions-2.md#indexed-skipwhile)
 
-## [Ordering Operators](docs/ordering.md)
+## [Ordering operators](docs/ordering.md)
 
 - [Orderby syntax](docs/orderings.md#orderby-syntax)
 - [Orderby using a single property](docs/orderings.md#orderby-property)
@@ -67,3 +67,12 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Orderby descending with a custom compare function](docs/orderings-4.md#descending-orders-with-a-custom-comparer)
 - [Thenby using a comparer](docs/orderings-5.md#multiple-ordering-with-a-custom-comparer)
 - [Thenby descending using a comparer](docs/orderings-5.md#multiple-descending-order-with-a-custom-comparer)
+
+## [Grouping operators](docs/groupings.md)
+
+- [Group by syntax](docs/groupings.md#group-by-into-syntax)
+- [Group by using a property](docs/groupings.md#groupby-using-a-property)
+- [Group by using a key property](docs/groupings.md#grouping-using-a-key-property)
+- [Nested group by queries](docs/groupings.md#nested-group-by-queries)
+- [Group by using a custom comparer](docs/groupings-2.md)
+- [Nested group by using a custom comparer](docs/groupings-3.md)
