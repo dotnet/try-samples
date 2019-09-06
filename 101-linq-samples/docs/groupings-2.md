@@ -4,7 +4,7 @@ The `group by` and `into` can use custom comparers to separate groups.
 
 These samples use the following custom comparer. It compares two strings to see if they are anagrams. (Anagrams are pairs of words formed from the same letters.)
 
-``` cs --region custom-comparer --session groupby-custom-comparer --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
+``` cs --region anagram-comparer --session groupby-custom-comparer --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Groupby with a custom comparer

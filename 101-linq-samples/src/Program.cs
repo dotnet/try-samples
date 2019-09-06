@@ -84,7 +84,11 @@ namespace Try101LinqSamples
 
                 },
                 "groupby-custom-comparer"   => new Groupings().GroupByCustomComparer(),
-                "nested-groupby-custom"     => new Groupings().NestedGroupByCustom();
+                "nested-groupby-custom"     => new Groupings().NestedGroupByCustom(),
+
+                "distinct-syntax"           => new SetOperations().DistinctSyntax(),
+                "distinct-property-values"  => new SetOperations().DistinctPropertyValues(),
+                "union-syntax"              => new SetOperations().UnionSyntax(),
 
                 null => RunAll(),
                 _                           => MissingTag(region),
@@ -154,6 +158,12 @@ namespace Try101LinqSamples
             new Groupings().NestedGrouBy();
             new Groupings().GroupByCustomComparer();
             new Groupings().NestedGroupByCustom();
+
+            // Set operations: 46 - 53
+            new SetOperations().DistinctSyntax();
+            new SetOperations().DistinctPropertyValues();
+            new SetOperations().UnionSyntax();
+
             return 0;
         }
     }

@@ -76,3 +76,14 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Nested group by queries](docs/groupings.md#nested-group-by-queries)
 - [Group by using a custom comparer](docs/groupings-2.md)
 - [Nested group by using a custom comparer](docs/groupings-3.md)
+
+## [Set Operators](docs/set.md)
+
+Distinct - 1
+Distinct - 2
+Union - 1
+Union - 2
+Intersect - 1
+Intersect - 2
+Except - 1
+Except - 2
