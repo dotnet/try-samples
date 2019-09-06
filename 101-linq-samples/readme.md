@@ -77,13 +77,13 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Group by using a custom comparer](docs/groupings-2.md)
 - [Nested group by using a custom comparer](docs/groupings-3.md)
 
-## [Set Operators](docs/set.md)
+## [Set Operators](docs/sets.md)
 
-Distinct - 1
-Distinct - 2
-Union - 1
-Union - 2
-Intersect - 1
-Intersect - 2
-Except - 1
+- [Distinct syntax and form](docs/sets.md#distinct-syntax)
+- [Find all distinct values of a single property](docs/sets.md#find-distinct-values-of-a-property)
+- [Union syntax and form](docs/sets.md#union-syntax)
+- [Union of query results](docs/sets.md#union-of-query-results)
+- [Intersect syntax and form](docs/sets-2.md#intersect-syntax)
+- [Find the intersection of query results](docs/sets-2.md#find-the-intersection-of-query-results)
+- [Find the difference of two sets using except](docs/sets-2.md#find-the-difference-of-two-sets)
 Except - 2

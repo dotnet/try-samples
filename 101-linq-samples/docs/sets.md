@@ -11,25 +11,26 @@ This sample uses `Distinct` to remove duplicate elements in a sequence of factor
 
 ## Find distinct values of a property
 
-This sample uses Distinct to find the unique Category names.
+This sample uses `Distinct` to find the unique Category names.
 
 ``` cs --region distinct-property-values --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Union syntax
 
-This sample uses Union to create one sequence that contains the unique values from both arrays.
+This sample uses `Union` to create one sequence that contains the unique values from both arrays.
 
 ``` cs --region union-syntax --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-## Nested group by queries
+## Union of query results
 
-This sample demonstrates the use of `group by` and `into` nested buckets of orders by customer, year, and month. The result 
+This sample uses `Union` to create one sequence that contains the unique first letter from both product and customer names. It shows how you can combine the results of two different queries that produce the same element type.
 
-``` cs --region nested-groupby --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
+
+``` cs --region union-query-results --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Grouping with a custom comparer &raquo;](./groupings-2.md) Previous: [Nested groupings with a custom comparer &laquo;](./groupings-3.md)**
+**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous: [Nested groupings with a custom comparer &laquo;](./groupings-3.md)**
 
 **[Home](../README.md)**
