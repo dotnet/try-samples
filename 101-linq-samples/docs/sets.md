@@ -31,6 +31,6 @@ This sample uses `Union` to create one sequence that contains the unique first l
 ``` cs --region union-query-results --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous: [Nested groupings with a custom comparer &laquo;](./groupings-3.md)**
+**Next: [Intersect and except set operations &raquo;](./sets-2.md) Previous: [Nested groupings with a custom comparer &laquo;](./groupings-3.md)**
 
 **[Home](../README.md)**

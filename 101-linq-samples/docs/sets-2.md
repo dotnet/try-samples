@@ -30,6 +30,6 @@ This sample uses `Except` to create one sequence that contains the first letters
 ``` cs --region difference-of-queries --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous: [Set operations distinct and union &laquo;](./sets.md)**
+**Next: Conversion operators &raquo;](./conversions.md) Previous: [Set operations distinct and union &laquo;](./sets.md)**
 
 **[Home](../README.md)**
