@@ -102,3 +102,8 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Retrieve the first element or default](docs/elements.md#first-element-of-a-possibly-empty-sequence)
 - [Retrieve the first matching element or default](docs/elements.md#first-matching-element-or-default)
 - [Find an element by position](docs/elements.md#find-element-at-position)
+
+## [Generate sequences](docs/generators.md)
+
+- [Generate a range of numbers](docs/generaotrs.md#create-a-range-of-numbers)
+- [Repeat the same number](docs/generaotrs.md#repeat-the-same-number)

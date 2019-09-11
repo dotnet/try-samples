@@ -37,6 +37,6 @@ This sample uses `ElementAt` to retrieve the second number greater than 5 from a
 ``` cs --region element-at --source-file ../src/ElementOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous:  [Conversion operations &raquo;](./conversions.md)**
+**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous:  [Generate elements &raquo;](./generators.md)**
 
 **[Home](../README.md)**

@@ -106,6 +106,9 @@ namespace Try101LinqSamples
                 "first-matching-or-default"     => new ElementOperations().MaybeFirstMatchingElement(),
                 "element-at"                    => new ElementOperations().ElementAtPosition(),
 
+                "generate-range"                => new Generators().RangeOfIntegers(),
+                "generate-repeat"               => new Generators().RepeatNumber(),
+
                 null                            => RunAll(),
                 _                               => MissingTag(region),
             };
@@ -197,6 +200,11 @@ namespace Try101LinqSamples
             new ElementOperations().MaybeFirstElement();
             new ElementOperations().MaybeFirstMatchingElement();
             new ElementOperations().ElementAtPosition();
+
+            // Generator operators: 65,66
+            new Generators().RangeOfIntegers();
+            new Generators().RepeatNumber();
+
             return 0;
         }
     }
