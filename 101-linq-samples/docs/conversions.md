@@ -1,6 +1,6 @@
 # LINQ - Conversion Operators
 
-The methods `ToArray`, `ToArray`, `ToDictionary`, and `OfType` provide ways to convert LINQ results to collections
+The methods `ToArray`, `ToArray`, `ToDictionary`, and `OfType` provide ways to convert LINQ results to collections.
 
 ## Convert to an array
 
@@ -27,10 +27,9 @@ This sample uses `ToDictionary` to immediately evaluate a sequence and a related
 
 This sample uses `OfType` to return only the elements of the array that are of type double.
 
-
 ``` cs --region convert-to-type --source-file ../src/Conversions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous:  [Intersect and except set operations &raquo;](./sets-2.md)**
+**Next: [ELement operations &raquo;](./elements.md) Previous:  [Intersect and except set operations &raquo;](./sets-2.md)**
 
 **[Home](../README.md)**

@@ -94,3 +94,11 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Convert results to a list](docs/conversions.md#convert-to-list)
 - [Convert results to a dictionary](docs/conversions.md#convert-to-dictionary)
 - [Convert results based on item type](docs/conversions.md#convert-elements-that-match-a-type)
+
+## [Element operators](docs/elements.md)
+
+- [Retrieve the first element](docs/elements.md#find-the-first-element)
+- [Retrieve the first matching element](docs/elements.md#find-the-first-matching-element)
+- [Retrieve the first element or default](docs/elements.md#first-element-of-a-possibly-empty-sequence)
+- [Retrieve the first matching element or default](docs/elements.md#first-matching-element-or-default)
+- [Find an element by position](docs/elements.md#find-element-at-position)

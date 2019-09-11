@@ -100,6 +100,12 @@ namespace Try101LinqSamples
                 "convert-to-dictionary"         => new Conversions().ConvertToDictionary(),
                 "convert-to-type"               => new Conversions().ConvertSelectedItems(),
 
+                "first-element"                 => new ElementOperations().FirstElement(),
+                "first-matching-element"        => new ElementOperations().FirstMatchingElement(),
+                "first-or-default"              => new ElementOperations().MaybeFirstElement(),
+                "first-matching-or-default"     => new ElementOperations().MaybeFirstMatchingElement(),
+                "element-at"                    => new ElementOperations().ElementAtPosition(),
+
                 null                            => RunAll(),
                 _                               => MissingTag(region),
             };
@@ -185,6 +191,12 @@ namespace Try101LinqSamples
             new Conversions().ConvertToDictionary();
             new Conversions().ConvertSelectedItems();
 
+            // Element operators: 58-64 (60 is missing.)
+            new ElementOperations().FirstElement();
+            new ElementOperations().FirstMatchingElement();
+            new ElementOperations().MaybeFirstElement();
+            new ElementOperations().MaybeFirstMatchingElement();
+            new ElementOperations().ElementAtPosition();
             return 0;
         }
     }
