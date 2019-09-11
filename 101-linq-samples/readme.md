@@ -86,4 +86,11 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Intersect syntax and form](docs/sets-2.md#intersect-syntax)
 - [Find the intersection of query results](docs/sets-2.md#find-the-intersection-of-query-results)
 - [Find the difference of two sets using except](docs/sets-2.md#find-the-difference-of-two-sets)
-Except - 2
+- [Find the difference of two queries using except](docs/sets-2.md#difference-of-two-queries)
+
+## [Conversion operators](docs/conversions.md)
+
+- [Convert results to an Array](docs/conversions.md#convert-to-array)
+- [Convert results to a list](docs/conversions.md#convert-to-list)
+- [Convert results to a dictionary](docs/conversions.md#convert-to-dictionary)
+- [Convert results based on item type](docs/conversions.md#convert-elements-that-match-a-type)

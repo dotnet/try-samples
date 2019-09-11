@@ -95,6 +95,11 @@ namespace Try101LinqSamples
                 "difference-of-sets"            => new SetOperations().DifferenceOfSets(),
                 "difference-of-queries"         => new SetOperations().DifferenceOfQueries(),
 
+                "convert-to-array"              => new Conversions().ConvertToArray(),
+                "convert-to-list"               => new Conversions().ConvertToList(),
+                "convert-to-dictionary"         => new Conversions().ConvertToDictionary(),
+                "convert-to-type"               => new Conversions().ConvertSelectedItems(),
+
                 null                            => RunAll(),
                 _                               => MissingTag(region),
             };
@@ -173,6 +178,13 @@ namespace Try101LinqSamples
             new SetOperations().IntersectQueryResults();
             new SetOperations().DifferenceOfSets();
             new SetOperations().DifferenceOfQueries();
+
+            // Conversion Operators: 54 - 57
+            new Conversions().ConvertToArray();
+            new Conversions().ConvertToList();
+            new Conversions().ConvertToDictionary();
+            new Conversions().ConvertSelectedItems();
+
             return 0;
         }
     }
