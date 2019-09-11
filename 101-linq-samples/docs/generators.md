@@ -16,6 +16,6 @@ This sample uses `First` to find the first element in the array that starts with
 ``` cs --region generate-repeat --source-file ../src/Generators.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Intersect and except set operations &raquo;](./groupings-2.md) Previous:  [Conversion operations &raquo;](./conversions.md)**
+**Next: [Quantifying operations &raquo;](./quantifiers.md) Previous:  [Conversion operations &raquo;](./conversions.md)**
 
 **[Home](../README.md)**

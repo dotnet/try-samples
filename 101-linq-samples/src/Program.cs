@@ -109,6 +109,11 @@ namespace Try101LinqSamples
                 "generate-range"                => new Generators().RangeOfIntegers(),
                 "generate-repeat"               => new Generators().RepeatNumber(),
 
+                "any-matches"                   => new Quantifiers().AnyMatchingElements(),
+                "any-grouped"                   => new Quantifiers().GroupedAnyMatchedElements(),
+                "all-match"                     => new Quantifiers().AllMatchedElements(),
+                "all-grouped"                   => new Quantifiers().GroupedAllMatchedElements(),
+
                 null                            => RunAll(),
                 _                               => MissingTag(region),
             };
@@ -204,6 +209,12 @@ namespace Try101LinqSamples
             // Generator operators: 65,66
             new Generators().RangeOfIntegers();
             new Generators().RepeatNumber();
+
+            // Quantifiers: 67 - 72 (68 and 71 are missing)
+            new Quantifiers().AnyMatchingElements();
+            new Quantifiers().GroupedAnyMatchedElements();
+            new Quantifiers().AllMatchedElements();
+            new Quantifiers().GroupedAllMatchedElements();
 
             return 0;
         }
