@@ -105,5 +105,12 @@ The `select` keyword or `Select` method provide this capability. These operators
 
 ## [Generate sequences](docs/generators.md)
 
-- [Generate a range of numbers](docs/generaotrs.md#create-a-range-of-numbers)
-- [Repeat the same number](docs/generaotrs.md#repeat-the-same-number)
+- [Generate a range of numbers](docs/generators.md#create-a-range-of-numbers)
+- [Repeat the same number](docs/generators.md#repeat-the-same-number)
+
+## [Quantifying members](docs/quantifiers.md)
+
+- [Check if any elements match a condition](docs/quantifiers.md#check-for-any-matching-elements)
+- [Group elements that match a condition](docs/quantifiers.md#group-by-any-elements-matching-a-condition)
+- [Check if all elements match a condition](docs/quantifiers.md#check-that-all-matching-elements)
+- [Group where all elements match a condition](docs/quantifiers.md#group-by-all-elements-matching-a-condition)
