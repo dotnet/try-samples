@@ -114,6 +114,43 @@ namespace Try101LinqSamples
                 "all-match"                     => new Quantifiers().AllMatchedElements(),
                 "all-grouped"                   => new Quantifiers().GroupedAllMatchedElements(),
 
+                "count-syntax"                  => new AggregateOperators().CountSyntax(),
+                "count-conditional"             => new AggregateOperators().CountConditional(),
+                "nested-count"                  => new AggregateOperators().NestedCount(),
+                "grouped-count"                 => new AggregateOperators().GroupedCount(),
+                "sum-syntax"                    => new AggregateOperators().SumSyntax(),
+                "sum-of-projection"             => new AggregateOperators().SumProjection(),
+                "grouped-sum"                   => new AggregateOperators().SumGrouped(),
+                "min-syntax"                    => new AggregateOperators().MinSyntax(),
+                "min-projection"                => new AggregateOperators().MinProjection(),
+                "min-grouped"                   => new AggregateOperators().MinGrouped(),
+                "min-each-group"                => new AggregateOperators().MinEachGroup(),
+                "max-syntax"                    => new AggregateOperators().MaxSyntax(),
+                "max-projection"                => new AggregateOperators().MaxProjection(),
+                "max-grouped"                   => new AggregateOperators().MaxGrouped(),
+                "max-each-group"                => new AggregateOperators().MaxEachGroup(),
+                "average-syntax"                => new AggregateOperators().AverageSyntax(),
+                "average-projection"            => new AggregateOperators().AverageProjection(),
+                "average-grouped"               => new AggregateOperators().AverageGrouped(),
+                "aggregate-syntax"              => new AggregateOperators().AggregateSyntax(),
+                "aggregate-seeded"              => new AggregateOperators().SeededAggregate(),
+
+                "concat-series"                 => new Miscellaneous().ConcatSeries(),
+                "concat-projections"            => new Miscellaneous().ConcatProjection(),
+                "equal-sequence"                => new Miscellaneous().EqualSequence(),
+                "not-equal-sequence"            => new Miscellaneous().Linq97(),
+                "dot-product"                   => new Miscellaneous().DotProduct(),
+                "custom-sequence-operator"      => new Miscellaneous().DotProduct(),
+
+                "deferred-execution"            => new QueryExecution().DeferredExecution(),
+                "eager-execution"               => new QueryExecution().EagerExecution(),
+                "reuse-query"                   => new QueryExecution().ReuseQueryDefinition(),
+
+                "cross-join"                    => new JoinOperations().CrossJoinQuery(),
+                "group-join"                    => new JoinOperations().GroupJoinQquery(),
+                "cross-group-join"              => new JoinOperations().CrossGroupJoin(),
+                "left-outer-join"               => new JoinOperations().LeftOuterJoin(),
+
                 null                            => RunAll(),
                 _                               => MissingTag(region),
             };
@@ -215,6 +252,42 @@ namespace Try101LinqSamples
             new Quantifiers().GroupedAnyMatchedElements();
             new Quantifiers().AllMatchedElements();
             new Quantifiers().GroupedAllMatchedElements();
+
+            // Aggregators: 73 - 93 (75 is missing)
+            new AggregateOperators().CountSyntax();
+            new AggregateOperators().CountConditional();
+            new AggregateOperators().NestedCount();
+            new AggregateOperators().GroupedCount();
+            new AggregateOperators().SumSyntax();
+            new AggregateOperators().SumProjection();
+            new AggregateOperators().SumGrouped();
+            new AggregateOperators().MinSyntax();
+            new AggregateOperators().MinProjection();
+            new AggregateOperators().MinGrouped();
+            new AggregateOperators().MinEachGroup();
+            new AggregateOperators().MaxSyntax();
+            new AggregateOperators().MaxProjection();
+            new AggregateOperators().MaxGrouped();
+            new AggregateOperators().MaxEachGroup();
+            new AggregateOperators().AverageSyntax();
+            new AggregateOperators().AverageProjection();
+            new AggregateOperators().AverageGrouped();
+            new AggregateOperators().AggregateSyntax();
+
+            // Miscellaneous:
+            new Miscellaneous().ConcatSeries();
+            new Miscellaneous().ConcatProjection();
+            new Miscellaneous().EqualSequence();
+            new Miscellaneous().Linq97();
+
+            new QueryExecution().DeferredExecution();
+            new QueryExecution().EagerExecution();
+            new QueryExecution().ReuseQueryDefinition();
+
+            new JoinOperations().CrossJoinQuery();
+            new JoinOperations().GroupJoinQquery();
+            new JoinOperations().CrossGroupJoin();
+            new JoinOperations().LeftOuterJoin();
 
             return 0;
         }
