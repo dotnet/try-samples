@@ -135,12 +135,10 @@ namespace Try101LinqSamples
                 "aggregate-syntax"              => new AggregateOperators().AggregateSyntax(),
                 "aggregate-seeded"              => new AggregateOperators().SeededAggregate(),
 
-                "concat-series"                 => new Miscellaneous().ConcatSeries(),
-                "concat-projections"            => new Miscellaneous().ConcatProjection(),
-                "equal-sequence"                => new Miscellaneous().EqualSequence(),
-                "not-equal-sequence"            => new Miscellaneous().Linq97(),
-                "dot-product"                   => new Miscellaneous().DotProduct(),
-                "custom-sequence-operator"      => new Miscellaneous().DotProduct(),
+                "concat-series"                 => new SequenceOperations().ConcatSeries(),
+                "concat-projections"            => new SequenceOperations().ConcatProjection(),
+                "equal-sequence"                => new SequenceOperations().EqualSequence(),
+                "dot-product"                   => new SequenceOperations().DotProduct(),
 
                 "deferred-execution"            => new QueryExecution().DeferredExecution(),
                 "eager-execution"               => new QueryExecution().EagerExecution(),
@@ -275,10 +273,10 @@ namespace Try101LinqSamples
             new AggregateOperators().AggregateSyntax();
 
             // Miscellaneous:
-            new Miscellaneous().ConcatSeries();
-            new Miscellaneous().ConcatProjection();
-            new Miscellaneous().EqualSequence();
-            new Miscellaneous().Linq97();
+            new SequenceOperations().ConcatSeries();
+            new SequenceOperations().ConcatProjection();
+            new SequenceOperations().EqualSequence();
+            new SequenceOperations().Linq97();
 
             new QueryExecution().DeferredExecution();
             new QueryExecution().EagerExecution();

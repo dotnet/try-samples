@@ -16,7 +16,7 @@ This sample uses Any to return a grouped a list of products only for categories 
 ``` cs --region any-grouped --source-file ../src/Quantifiers.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-## Check that all elements match a condition.
+## Check that all elements match a condition
 
 This sample uses All to determine whether an array contains only odd numbers.
 
@@ -27,12 +27,9 @@ This sample uses All to determine whether an array contains only odd numbers.
 
 This sample uses All to return a grouped a list of products only for categories that have all of their products in stock.
 
-
- uses `OfType` to return only the elements of the array that are of type double.
-
 ``` cs --region all-grouped --source-file ../src/Quantifiers.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [ELement operations &raquo;](./elements.md) Previous:  [Generate sequence elements &raquo;](./generators.md)**
+**Next: [Aggregate operations &raquo;](./aggregates.md) Previous:  [Generate sequence elements &raquo;](./generators.md)**
 
 **[Home](../README.md)**

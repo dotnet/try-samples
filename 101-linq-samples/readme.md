@@ -114,3 +114,48 @@ The `select` keyword or `Select` method provide this capability. These operators
 - [Group elements that match a condition](docs/quantifiers.md#group-by-any-elements-matching-a-condition)
 - [Check if all elements match a condition](docs/quantifiers.md#check-that-all-matching-elements)
 - [Group where all elements match a condition](docs/quantifiers.md#group-by-all-elements-matching-a-condition)
+
+## [Aggregator operators](docs/aggregators.md)
+
+- [Count all elements in a sequence](docs/aggregators.md#count-all-elements-in-a-sequence)
+- [Count all elements matching a condition in a sequence](docs/aggregators.md#count-all-elements-matching-a-condition)
+- [Count all elements matching a condition in a sequence](docs/aggregators.md#count-all-elements-nested-in-a-query)
+- [Count all elements in a group](docs/aggregators.md#count-all-elements-that-are-memebers-of-a-group)
+- [Sum all elements in a sequence](docs/aggregators.md#sum-all-numeric-elements-in-a-sequence)
+- [Sum a projection from sequence](docs/aggregators.md#sum-all-elements-matching-a-condition)
+- [Sum all elements in a group](docs/aggregators.md#sum-all-elements-that-are-memebers-of-a-group)
+- [Find the minimum element in a sequence](docs/aggregators.md#find-the-minimum-of-a-sequence-of-elements)
+- [Find the minimum of a projection from a sequence](docs/aggregators.md#find-the-minimum-of-a-projection)
+- [Find the minimum in each group](docs/aggregators.md#find-the-minimum-in-each-group)
+- [Find all minimums in a group](docs/aggregators.md#find-all-elements-matching-the-minimum)
+- [Find the maximum element in a sequence](docs/aggregators.md#find-the-maximum-of-a-sequence-of-elements)
+- [Find the maximum of a projection from a sequence](docs/aggregators.md#find-the-maximum-of-a-projection)
+- [Find the maximum in each group](docs/aggregators.md#find-the-maximum-in-each-group)
+- [Find all maximums in a group](docs/aggregators.md#find-all-elements-matching-the-maximum)
+- [Find the average of all element in a sequence](docs/aggregators.md#find-the-average-of-a-sequence-of-elements)
+- [Find the maximum of a projection from a sequence](docs/aggregators.md#find-the-average-of-a-projection)
+- [Find the maximum in each group](docs/aggregators.md#find-the-average-in-each-group)
+- [Compute an aggregate from all elements in a sequence](docs/aggregators.md#compute-an-aggregate-value-from-all-elements-of-a-sequence)
+- [Compute an aggregate from a seed and elements in a sequence](docs/aggregators.md#compute-an-aggregate-value-from-a-seed-value-and-all-elements-of-a-sequence)
+
+## [Sequence operations](docs/sequence-operations.md)
+
+- [Compare two sequences for equality](docs/sequence-operations.md#count-all-elements-in-a-sequence)
+- [Concatenate two sequences](docs/sequence-operations.md#concatenate-projections-from-two-sequences)
+- [Concatenate projections from two sequences](docs/sequence-operations.md#concatenate-projections-from-two-sequences)
+- [Concatenate projections from two sequences](docs/sequence-combine.md#concatenate-projections-from-two-sequences)
+- [Combine sequences with zip](docs/sequence-combine.md#combine-sequences-with-zip)
+
+## [Eager and lazy query execution](docs/query-execution.md)
+
+- [Queries execute lazily](docs/query-execution.md#queries-execute-lazily)
+- [Request eager execution](docs/query-execution.md#request-eager-query-execution)
+- [Reuse queries with new results](docs/query-execution.md#reuse-queries-with-new-results)
+
+## [Join operations](docs/join-operators.md)
+
+- [Cross join](docs/join-operators.md#cross-join)
+- [Group join](docs/join-operators.md#group-join)
+- [Group join query](docs/join-operators.md#group-join)
+- [Cross join with group join](docs/join-operators.md#cross-join-with-group-join)
+- [Left outer join](docs/join-operators.md#left-outer-join-using-group-join)
