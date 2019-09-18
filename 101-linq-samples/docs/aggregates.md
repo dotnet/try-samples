@@ -24,7 +24,7 @@ This sample uses `Count` to return a list of customers and how many orders each 
 ``` cs --region nested-count --source-file ../src/AggregateOperators.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-## Count all elements that are members of a group 
+## Count all elements that are members of a group
 
 This sample uses `Count` to return a list of categories and how many products each has.
 

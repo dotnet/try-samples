@@ -30,6 +30,6 @@ This sample uses `OfType` to return only the elements of the array that are of t
 ``` cs --region convert-to-type --source-file ../src/Conversions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [ELement operations &raquo;](./elements.md) Previous:  [Intersect and except set operations &raquo;](./sets-2.md)**
+**Next: [Element operations &raquo;](./elements.md) Previous:  [Intersect and except set operations &raquo;](./sets-2.md)**
 
 **[Home](../README.md)**

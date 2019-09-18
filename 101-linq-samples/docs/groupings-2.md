@@ -13,6 +13,6 @@ These samples use the following custom comparer. It compares two strings to see 
 ``` cs --region groupby-custom-comparer --session groupby-custom-comparer --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Nested groupings with a custom comparer &raquo;](./groupings-2.md) Previous: [Groupings &laquo;](./orderings.md)**
+**Next: [Nested groupings with a custom comparer &raquo;](./groupings-3.md) Previous: [Groupings &laquo;](./groupings.md)**
 
 **[Home](../README.md)**

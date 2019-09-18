@@ -30,7 +30,7 @@ This sample uses SkipWhile to get the elements of the array starting from the fi
 ``` cs --region indexed-skipwhile --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Partitions &raquo;](./partitions.md) Previous: [Partitions &laquo;](./partitions.md)**
+**Next: [Ordering operations &raquo;](./orderings.md) Previous: [Partitions &laquo;](./partitions.md)**
 
 **[Home](../README.md)**
 

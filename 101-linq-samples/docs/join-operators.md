@@ -30,6 +30,6 @@ A so-called outer join can be expressed with a group join. A left outer join is 
 ``` cs --region left-outer-join --source-file ../src/JoinOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-**Next: [Join operators &raquo;](./join-operators.md)**
+**Previous:  [Query execution &raquo;](./query-execution.md)**
 
 **[Home](../README.md)**
