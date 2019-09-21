@@ -33,7 +33,7 @@ This sample uses `Concat` to create one sequence that contains the names of all 
 
 ## Combine sequences with zip
 
-This sample calculates the dot product of two integer vectors. It uses `Zip`` to calculate the dot product, passing it a lambda function to multiply two arrays, element by element, and sum the result.
+This sample calculates the dot product of two integer vectors. It uses `Zip` to calculate the dot product, passing it a lambda function to multiply two arrays, element by element, and sum the result.
 
 ``` cs --region dot-product --source-file ../src/SequenceOperations.cs --project ../src/Try101LinqSamples.csproj
 ```

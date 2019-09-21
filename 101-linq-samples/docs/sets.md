@@ -2,7 +2,7 @@
 
 The methods `Distinct`, `Union`, `Intersect`, and `Except` provide set operations to compare multiple sequences.
 
-## Distinct syntax
+## Find distinct elements
 
 This sample uses `Distinct` to remove duplicate elements in a sequence of factors of 300.
 
@@ -16,7 +16,7 @@ This sample uses `Distinct` to find the unique Category names.
 ``` cs --region distinct-property-values --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```
 
-## Union syntax
+## Find the union of sets
 
 This sample uses `Union` to create one sequence that contains the unique values from both arrays.
 

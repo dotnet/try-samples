@@ -2,7 +2,7 @@
 
 The methods `Distinct`, `Union`, `Intersect`, and `Except` provide set operations to compare multiple sequences.
 
-## Intersect syntax
+## Find the intersection of two sets
 
 This sample uses `Intersect` to create one sequence that contains the common values shared by both arrays.
 
@@ -11,7 +11,7 @@ This sample uses `Intersect` to create one sequence that contains the common val
 
 ## Find the intersection of query results
 
-This sample uses Intersect to create one sequence that contains the common first letter from both product and customer names.
+This sample uses `Intersect` to create one sequence that contains the common first letter from both product and customer names.
 
 ``` cs --region intersect-different-queries --source-file ../src/SetOperations.cs --project ../src/Try101LinqSamples.csproj
 ```

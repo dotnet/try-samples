@@ -25,7 +25,7 @@ This sample uses `ToDictionary` to immediately evaluate a sequence and a related
 
 ## Convert elements that match a type
 
-This sample uses `OfType` to return only the elements of the array that are of type double.
+This sample uses `OfType` to return only the elements of the array that are of type `double`.
 
 ``` cs --region convert-to-type --source-file ../src/Conversions.cs --project ../src/Try101LinqSamples.csproj
 ```

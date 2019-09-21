@@ -4,28 +4,28 @@
 
 ## TakeWhile syntax
 
-This sample uses TakeWhile to return elements starting from the beginning of the array until a number is hit that is not less than 6.
+This sample uses `TakeWhile` to return elements starting from the beginning of the array until a number is hit that is not less than 6.
 
 ``` cs --region takewhile-syntax --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Indexed TakeWhile
 
-This sample uses TakeWhile to return elements starting from the beginning of the array until a number is hit that is less than its position in the array.
+This sample uses `TakeWhile` to return elements starting from the beginning of the array until a number is hit that is less than its position in the array.
 
 ``` cs --region indexed-takewhile --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## SkipWhile syntax
 
-This sample uses SkipWhile to get the elements of the array starting from the first element divisible by 3.
+This sample uses `SkipWhile` to get the elements of the array starting from the first element divisible by 3.
 
 ``` cs --region skipwhile-syntax --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Indexed SkipWhile
 
-This sample uses SkipWhile to get the elements of the array starting from the first element less than its position.
+This sample uses `SkipWhile` to get the elements of the array starting from the first element less than its position.
 
 ``` cs --region indexed-skipwhile --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```

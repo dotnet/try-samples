@@ -11,14 +11,14 @@ This sample uses a compound `from` clause to make a query that returns all pairs
 
 ## Select from related input sequences
 
-This sample uses a comThis sample uses a compound from clause to select all orders where the order total is less than 500.00.
+This sample uses a compound `from` clause to select all orders where the order total is less than 500.00.
 
 ``` cs --region select-many-drilldown --source-file ../src/Projections.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Compound select with where clause
 
-This sample uses a compound from clause to select all orders where the order was made in 1998 or later.
+This sample uses a compound `from` clause to select all orders where the order was made in 1998 or later.
 
 ``` cs --region select-many-filter --source-file ../src/Projections.cs --project ../src/Try101LinqSamples.csproj
 ```

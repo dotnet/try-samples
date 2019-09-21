@@ -70,11 +70,10 @@ namespace Try101LinqSamples
             #region nested-skip
             List<Customer> customers = GetCustomerList();
 
-            var waOrders =
-                from cust in customers
-                from order in cust.Orders
-                where cust.Region == "WA"
-                select (cust.CustomerID, order.OrderID, order.OrderDate);
+            var waOrders = from cust in customers
+                           from order in cust.Orders
+                           where cust.Region == "WA"
+                           select (cust.CustomerID, order.OrderID, order.OrderDate);
 
             var allButFirst2Orders = waOrders.Skip(2);
 

@@ -2,7 +2,7 @@
 
 The `group by` and `into` keywords provide grouping constructs to organize elements of the input sequence into buckets.
 
-## Group by into syntax
+## Group by into buckets
 
 This sample demonstrates the use of `group by` and `into` to create buckets based on the remainder of an integer when dividing it by 5.
 
@@ -11,14 +11,14 @@ This sample demonstrates the use of `group by` and `into` to create buckets base
 
 ## Groupby using a property
 
-This sample uses group by to partition a list of words by their first letter.
+This sample uses `group by` to partition a list of words by their first letter.
 
 ``` cs --region groupby-property --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Grouping using a key property
 
-This sample uses group by to partition a list of products by category.
+This sample uses `group by` to partition a list of products by category.
 
 ``` cs --region groupby-category --source-file ../src/Groupings.cs --project ../src/Try101LinqSamples.csproj
 ```

@@ -2,9 +2,9 @@
 
 The `orderby` clause of a LINQ query sorts the output sequence. You can control the properties used for sorting, and specify ascending or descending order.
 
-## orderby sytnax
+## orderby sorts elements
 
-This sample uses orderby to sort a list of words alphabetically.
+This sample uses `orderby` to sort a list of words alphabetically.
 
 ``` cs --region orderby-syntax --source-file ../src/Orderings.cs --project ../src/Try101LinqSamples.csproj
 ```

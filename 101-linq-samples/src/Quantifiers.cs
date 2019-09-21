@@ -26,11 +26,10 @@ namespace Try101LinqSamples
         {
             #region any-grouped
             List<Product> products = GetProductList();
-            var productGroups =
-                from p in products
-                group p by p.Category into g
-                where g.Any(p => p.UnitsInStock == 0)
-                select (Category: g.Key, Products: g);
+            var productGroups = from p in products
+                                group p by p.Category into g
+                                where g.Any(p => p.UnitsInStock == 0)
+                                select (Category: g.Key, Products: g);
             
             foreach(var group in productGroups)
             {
@@ -61,11 +60,10 @@ namespace Try101LinqSamples
             #region all-grouped
             List<Product> products = GetProductList();
 
-            var productGroups =
-                from p in products
-                group p by p.Category into g
-                where g.All(p => p.UnitsInStock > 0)
-                select (Category: g.Key, Products: g);
+            var productGroups = from p in products
+                                group p by p.Category into g
+                                where g.All(p => p.UnitsInStock > 0)
+                                select (Category: g.Key, Products: g);
 
             foreach (var group in productGroups)
             {
