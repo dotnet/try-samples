@@ -20,7 +20,7 @@ You can explore these tutorials in your environment using the `dotnet try` globa
 
     ![dotnet try](https://user-images.githubusercontent.com/2546640/57164943-ab35f080-6dc3-11e9-8230-ee521e00e428.gif)
 
-1. This will launch the browser.Now, you can read the documentation and run code in one place.
+1. This will launch the browser. Now, you can read the documentation and run code in one place.
 
     ![dotnet try -  _Readme md (2)](https://user-images.githubusercontent.com/2546640/57165217-737b7880-6dc4-11e9-8b4e-0e70966ac03d.gif)
 
