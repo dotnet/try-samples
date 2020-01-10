@@ -1,3 +1,13 @@
+---
+name: "101 LINQ samples"
+description: "Explore LINQ queries using the try.net interactive experience."
+page_type: sample
+languages:
+  - csharp
+products:
+  - dotnet-core
+---
+
 # 101 LINQ Samples
 ![dotnet try Enabled](https://img.shields.io/badge/Try_.NET-Enabled-501078.svg)
 
@@ -5,7 +15,7 @@
 <img src ="https://user-images.githubusercontent.com/2546640/56708992-deee8780-66ec-11e9-9991-eb85abb1d10a.png" width="350">
 </p>
 
-Learn how to use LINQ in your applications with these code samples, covering the entire range of LINQ functionality, demonstrating LINQ with objects. Once you've learned LINQ using object sequences, you can use LINQ with any supported data source.
+Learn how to use LINQ in your applications with these code samples, covering the entire range of LINQ functionality, demonstrating LINQ with objects. Once you've learned LINQ using object sequences, you can use LINQ with any supported data source. These samples leverage the interactive try.net experience in your environment.
 
 ## Exploring LINQ using this tutorial
 
