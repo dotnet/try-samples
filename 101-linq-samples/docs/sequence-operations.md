@@ -1,6 +1,6 @@
 # LINQ - Sequence operations
 
-These operators compare or manipulate entire sequences: `EqualAll`, `Concat`, and `Combine`.
+These operators compare or manipulate entire sequences: `SequenceEqual`, `Concat`, and `Combine`.
 
 ## Compare two sequences for equality
 
