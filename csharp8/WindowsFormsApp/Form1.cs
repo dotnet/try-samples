@@ -21,7 +21,7 @@ namespace WindowsFormsApp
         private async void button1_Click(object sender, EventArgs e)
         {
             Debug.WriteLine($"Main: {ThreadId()}");
-            var hash = await DownloadGoogle().ConfigureAwait(false);
+            var hash = await DownloadGoogle().ConfigureAwait(true);
 
             Debug.WriteLine($"Write hash: {ThreadId()}");
             this.textBox1.Text = hash;
