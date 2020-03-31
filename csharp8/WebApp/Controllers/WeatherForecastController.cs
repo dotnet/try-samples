@@ -30,10 +30,9 @@ namespace WebApp.Controllers
             var beforeThread = Thread.CurrentThread.ManagedThreadId;
             var forecast = Forecast(new WeatherForecast{ThreadId = beforeThread});
             _ = forecast
-                .ContinueWith((t, o) =>
-                {
-                    Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
-                }, null, TaskScheduler.Default);
+                .ConfigureAwait(true);
+
+            Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
 
             return await forecast;
         }
