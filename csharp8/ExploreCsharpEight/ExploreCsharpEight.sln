@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExploreCsharpEight", "ExploreCsharpEight.csproj", "{21BECE14-ED87-4D48-A399-27EA8F2B480A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreCsharpEight.Tests", "..\ExploreCsharpEight.Tests\ExploreCsharpEight.Tests.csproj", "{18F78165-32A4-42DC-90FE-70CBDEB09E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BECE14-ED87-4D48-A399-27EA8F2B480A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BECE14-ED87-4D48-A399-27EA8F2B480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BECE14-ED87-4D48-A399-27EA8F2B480A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BECE14-ED87-4D48-A399-27EA8F2B480A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F78165-32A4-42DC-90FE-70CBDEB09E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F78165-32A4-42DC-90FE-70CBDEB09E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F78165-32A4-42DC-90FE-70CBDEB09E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F78165-32A4-42DC-90FE-70CBDEB09E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96EC500-418B-4550-AFE4-6302F967773B}
+	EndGlobalSection
+EndGlobal
