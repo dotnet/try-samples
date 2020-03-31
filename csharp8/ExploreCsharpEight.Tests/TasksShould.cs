@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 using NFluent;
@@ -13,7 +14,7 @@ namespace ExploreCsharpEight.Tests
         {
             var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
             await Task.Delay(1);
-            
+
             var afterThreadId = Thread.CurrentThread.ManagedThreadId;
             Check.That(afterThreadId).IsNotEqualTo(beforeThreadId); // Well they can be different
         }
@@ -35,25 +36,14 @@ namespace ExploreCsharpEight.Tests
         }
 
         [Test]
-        public async Task Can_force_continuation_on_inital_thread()
+        public async Task Can_not_force_continuation_on_initial_thread()
         {
-            object scheduler = SynchronizationContext.Current;
-            if (scheduler is null/* && TaskScheduler.Current != TaskScheduler.Default*/)
-            {
-                scheduler = TaskScheduler.Current;
-            }
-
-            Check.That(scheduler).IsNotNull();
-
             var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
-            await Task.Run(async () => await Task.Delay(1))
-                .ContinueWith((t, o) =>
-                {
-                    var afterThreadId = Thread.CurrentThread.ManagedThreadId;
-                    Check.That(afterThreadId).IsEqualTo(beforeThreadId); // Well they can be different
 
+            await Task.Delay(10).ConfigureAwait(continueOnCapturedContext: true);
 
-                }, null, TaskScheduler.Current);
+            var afterThreadId = Thread.CurrentThread.ManagedThreadId;
+            Check.That(afterThreadId).IsNotEqualTo(beforeThreadId);
         }
     }
 }
