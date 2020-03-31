@@ -94,6 +94,7 @@ namespace Try101LinqSamples
                 "intersect-different-queries"   => new SetOperations().IntersectQueryResults(),
                 "difference-of-sets"            => new SetOperations().DifferenceOfSets(),
                 "difference-of-queries"         => new SetOperations().DifferenceOfQueries(),
+                "except-syntax"                 => new SetOperations().DifferenceOfSets(),
 
                 "convert-to-array"              => new Conversions().ConvertToArray(),
                 "convert-to-list"               => new Conversions().ConvertToList(),
