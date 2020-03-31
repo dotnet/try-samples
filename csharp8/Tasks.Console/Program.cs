@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Tasks.ConsoleApp
@@ -7,25 +8,18 @@ namespace Tasks.ConsoleApp
     {
         static async Task Main(string[] args)
         {
-            var result = 5;
-            Task<int> pending = SomeMethodAsync(result);
+            SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
 
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
-            Console.WriteLine(await pending);
+            var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
+            await Task.Run(async () => await Task.Delay(1))
+                .ContinueWith((t, o) =>
+                {
+                    var afterThreadId = Thread.CurrentThread.ManagedThreadId;
+                   
+                    Console.WriteLine($"Before = {beforeThreadId}; Continuation = {afterThreadId}");
 
-            Console.ReadKey();
-        }
+                }, null, TaskScheduler.FromCurrentSynchronizationContext());
 
-
-        private static async Task<int> SomeMethodAsync(int result)
-        {
-            await Task.Delay(TimeSpan.FromSeconds(5));
-            return result;
         }
     }
 }

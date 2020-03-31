@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Threading.Tasks;
 using NFluent;
 using NUnit.Framework;
@@ -8,22 +9,29 @@ namespace ExploreCsharpEight.Tests
     public class TasksShould
     {
         [Test]
-        public async Task Await_multiple_times()
+        public async Task Task_continuation_runs_on_a_thread_pool_thread()
         {
-            var result = 5;
-            Task<int> pending = SomeMethodAsync(result);
-            Check.That(await pending).IsEqualTo(result);
-            Check.That(await pending).IsEqualTo(result);
-            Check.That(await pending).IsEqualTo(result);
-            Check.That(await pending).IsEqualTo(result);
-            Check.That(await pending).IsEqualTo(result);
-            Check.That(await pending).IsEqualTo(result);
+            var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
+            await Task.Delay(1);
+            
+            var afterThreadId = Thread.CurrentThread.ManagedThreadId;
+            Check.That(afterThreadId).IsNotEqualTo(beforeThreadId); // Well they can be different
         }
 
-        private async Task<int> SomeMethodAsync(int result)
+        [Test]
+        public async Task Can_force_continuation_take_place_on_the_initial_synchronizationContext()
         {
-            await Task.Delay(10);
-            return result;
+            SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
+
+            var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
+            await Task.Run(async () => await Task.Delay(1))
+                .ContinueWith((t, o) =>
+                {
+                    var afterThreadId = Thread.CurrentThread.ManagedThreadId;
+                    Check.That(afterThreadId).IsNotEqualTo(beforeThreadId); // Well they can be different
+
+
+                }, null, TaskScheduler.FromCurrentSynchronizationContext());
         }
     }
 }
