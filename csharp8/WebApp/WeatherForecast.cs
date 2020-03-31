@@ -12,9 +12,9 @@ namespace WebApp
 
         public string Summary { get; set; }
 
-        public int ThreadId { get; set; }
+        public int CapturedInitialThread { get; set; }
 
-        public WeatherForecast Modify(Action<WeatherForecast> modify)
+        public WeatherForecast With(Action<WeatherForecast> modify)
         {
             modify(this);
             return this;

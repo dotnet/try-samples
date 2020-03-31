@@ -33,5 +33,27 @@ namespace ExploreCsharpEight.Tests
 
                 }, null, TaskScheduler.FromCurrentSynchronizationContext());
         }
+
+        [Test]
+        public async Task Can_force_continuation_on_inital_thread()
+        {
+            object scheduler = SynchronizationContext.Current;
+            if (scheduler is null/* && TaskScheduler.Current != TaskScheduler.Default*/)
+            {
+                scheduler = TaskScheduler.Current;
+            }
+
+            Check.That(scheduler).IsNotNull();
+
+            var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
+            await Task.Run(async () => await Task.Delay(1))
+                .ContinueWith((t, o) =>
+                {
+                    var afterThreadId = Thread.CurrentThread.ManagedThreadId;
+                    Check.That(afterThreadId).IsEqualTo(beforeThreadId); // Well they can be different
+
+
+                }, null, TaskScheduler.Current);
+        }
     }
 }
