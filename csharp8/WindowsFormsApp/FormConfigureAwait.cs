@@ -7,9 +7,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp
 {
-    public partial class Form1 : Form
+    public partial class FormConfigureAwait : Form
     {
-        public Form1()
+        public FormConfigureAwait()
         {
             InitializeComponent();
         }
