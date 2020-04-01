@@ -22,7 +22,13 @@ namespace ExploreCsharpEight.Tests
         [Test]
         public async Task Can_force_continuation_take_place_on_the_initial_synchronizationContext()
         {
+            Check.That(SynchronizationContext.Current).IsNull();
+            
             SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
+
+            Check.That(SynchronizationContext.Current).IsNotNull();
+
+            var captureSyncContext = SynchronizationContext.Current;
 
             var beforeThreadId = Thread.CurrentThread.ManagedThreadId;
             await Task.Run(async () => await Task.Delay(1))
@@ -33,6 +39,10 @@ namespace ExploreCsharpEight.Tests
 
 
                 }, null, TaskScheduler.FromCurrentSynchronizationContext());
+
+            Check.That(Thread.CurrentThread.ManagedThreadId).IsNotEqualTo(beforeThreadId);
+            Check.That(SynchronizationContext.Current).IsNotEqualTo(captureSyncContext);
+            Check.That(SynchronizationContext.Current).IsNull();
         }
 
         [Test]
