@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExploreCsharpEight.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.ConsoleApp", "..\Tasks.Console\Tasks.ConsoleApp.csproj", "{ADBEB077-2B48-4466-84C3-067DE3A50AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "..\WebApp\WebApp.csproj", "{704F4867-DC4F-4568-A31D-9E89C321DE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "..\WebApp\WebApp.csproj", "{704F4867-DC4F-4568-A31D-9E89C321DE8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp", "..\WindowsFormsApp\WindowsFormsApp.csproj", "{334DBDC4-A8A4-4E83-A68B-A8BCDAD8C191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingGame.Enemy", "..\CodingGame.Enemy\CodingGame.Enemy.csproj", "{70EEECEA-E3DA-415A-9C1C-0BE6474F4153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{334DBDC4-A8A4-4E83-A68B-A8BCDAD8C191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334DBDC4-A8A4-4E83-A68B-A8BCDAD8C191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334DBDC4-A8A4-4E83-A68B-A8BCDAD8C191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EEECEA-E3DA-415A-9C1C-0BE6474F4153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EEECEA-E3DA-415A-9C1C-0BE6474F4153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EEECEA-E3DA-415A-9C1C-0BE6474F4153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EEECEA-E3DA-415A-9C1C-0BE6474F4153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
