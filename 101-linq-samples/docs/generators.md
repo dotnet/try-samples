@@ -4,14 +4,14 @@ The methods `Range` and `Repeat` create sequences of integers. These can be the 
 
 ## Create a range of numbers
 
-This sample uses `First` to return the first matching element as a `Product`, instead of as a sequence containing a `Product`.
+This sample uses `Range` to generates a sequence of integral numbers within a specified range.
 
 ``` cs --region generate-range --source-file ../src/Generators.cs --project ../src/Try101LinqSamples.csproj
 ```
 
 ## Repeat the same number
 
-This sample uses `First` to find the first element in the array that starts with 'o'.
+This sample uses `Repeat` to generates a sequence that contains one repeated value.
 
 ``` cs --region generate-repeat --source-file ../src/Generators.cs --project ../src/Try101LinqSamples.csproj
 ```
