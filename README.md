@@ -22,6 +22,7 @@ You can explore these tutorials in your environment using the `dotnet try` globa
 
 ## The tutorials in this repository are:
 - [Beginners Guide to C#](./Beginners/Readme.md)
+- [101 LINQ Samples](./101-linq-samples/readme.md)
 - [Explore C# 7 through C# 7.3](./csharp7/readme.md).
 - [Explore C# 8](./csharp8/readme.md).
 

@@ -1,22 +1,26 @@
+---
+name: "Explore C# 8.0"
+description: "Explore the new features in the C# language released in version 8.0. Learn to program interactively using the try.net interactive experience with .NET Core."
+page_type: sample
+languages:
+  - csharp
+products:
+  - dotnet-core
+---
 # What's new in C# 8.0 - exploration
 
-This exploration enables you to experiment with the features that have been released in C# 8.0, preview 2. You can try the code in the samples, modify it, and see the effects of using the new features in a variety of scenarios.
+![dotnet try Enabled](https://img.shields.io/badge/Try_.NET-Enabled-501078.svg)
 
-You can try the following features that first appeared in preview 2:
+<p align ="center">
+<img src ="https://user-images.githubusercontent.com/2546640/56708992-deee8780-66ec-11e9-9991-eb85abb1d10a.png" width="350">
+</p>
 
-- [Pattern matching enhancements](./patterns.md):
-- [Static local functions](static-local-functions.md)
-- [Using declarations](using-declarations-ref-structs.md)
+This exploration enables you to experiment with the features that have been released in C# 8.0. You can try the code in the samples, modify it, and see the effects of using the new features in a variety of scenarios.
 
-The following language features first appeared in C# 8.0 preview 1:
+## What's new in C# 8.0 - exploration
 
-- [Nullable reference types](nullable-reference-types.md)
-- [Asynchronous streams](asynchronous-streams.md)
-- [Indices and ranges](indices-and-ranges.md)
+To run these samples, you'll need to follow the instructions on hte [dotnet/try-samples](https://github.com/dotnet/try-samples#basics) repository to install the global `dotnet try` tool in your .NET environment.
 
-> *Note*:
-> This exploration was last updated for C# 8.0 preview 2.
+Once you've installed the global tool, running `dotnet try` loads the samples into a browser. The browser pages introduce important programming concepts through interactive exercises you run in your browser.
 
-You can try all of the features in the upcoming version of C# by stepping through the different sections of this tutorial. Or, you can select any of the preceding links to go to the feature you want to explore first.
-
-#### Next: [More patterns in more places &raquo;](./patterns.md)
+If you loaded this page from `dotnet try`, click [here](index.md) to start the sample. (This link will not work in the samples browser).
