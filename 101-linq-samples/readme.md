@@ -19,7 +19,7 @@ Learn how to use LINQ in your applications with these code samples, covering the
 
 ## Exploring LINQ using this tutorial
 
-To run these samples, you'll need to follow the instructions on hte [dotnet/try-samples](https://github.com/dotnet/try-samples#basics) repository to install the global `dotnet try` tool in your .NET environment. 
+To run these samples, you'll need to follow the instructions on the [dotnet/try-samples](https://github.com/dotnet/try-samples#basics) repository to install the global `dotnet try` tool in your .NET environment. 
 
 Once you've installed the global tool, running `dotnet try` loads the samples into a browser. The browser pages introduce important concepts in LINQ, and you run the code interactively in your browser.
 
