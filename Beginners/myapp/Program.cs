@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace myapp
 {
-    public class Program
+    class Program
     {
         static void Main(string region = null,
             string session = null,
