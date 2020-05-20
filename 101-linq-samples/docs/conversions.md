@@ -1,6 +1,6 @@
 # LINQ - Conversion Operators
 
-The methods `ToArray`, `ToArray`, `ToDictionary`, and `OfType` provide ways to convert LINQ results to collections.
+The methods `ToArray`, `ToList`, `ToDictionary`, and `OfType` provide ways to convert LINQ results to collections.
 
 ## Convert to an array
 
