@@ -13,7 +13,7 @@ namespace ExploreCsharpEight
             {
                 // every 3 elements, wait 2 seconds:
                 if (i % 3 == 0)
-                    await Task.Delay(3000);
+                    await Task.Delay(2000);
                 yield return i;
             }
         }
