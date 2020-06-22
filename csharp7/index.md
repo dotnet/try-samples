@@ -15,7 +15,7 @@ The .NET environment manages memory automatically. However, some scenarios requi
 - [ref locals and returns](./ref-locals-returns.md)
 - [in and ref readonly](./in-ref-readonly.md)
 - [readonly struct](./readonly-struct.md)
-- [ref struct](./readonly-struct#ref-struct-types.md)
+- [ref struct](./readonly-struct.md#ref-struct-types)
 
 ## Pattern matching
 
