@@ -19,7 +19,7 @@ These explorations show you the structure of C# programs, working with text, num
 
 ## Learn to program using this tutorial
 
-To run these samples, you'll need to follow the instructions on hte [dotnet/try-samples](https://github.com/dotnet/try-samples#basics) repository to install the global `dotnet try` tool in your .NET environment.
+To run these samples, you'll need to follow the instructions on the [dotnet/try-samples](https://github.com/dotnet/try-samples#basics) repository to install the global `dotnet try` tool in your .NET environment.
 
 Once you've installed the global tool, running `dotnet try` loads the samples into a browser. The browser pages introduce important programming concepts through interactive exercises you run in your browser.
 
