@@ -8,7 +8,7 @@ namespace Try101LinqSamples
         public int DeferredExecution()
         {
             #region deferred-execution
-            // Sequence operators form first-class queries that
+            // Sequence operators from first-class queries that
             // are not executed until you enumerate over them.
 
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
