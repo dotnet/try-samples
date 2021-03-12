@@ -25,7 +25,7 @@ This sample uses `Skip` to get all but the first 4 elements of the array.
 
 ## Nested skip partitions
 
-This sample uses `Take` to get all but the first 2 orders from customers in Washington.
+This sample uses `Skip` to get all but the first 2 orders from customers in Washington.
 
 ``` cs --region nested-skip --source-file ../src/Partitions.cs --project ../src/Try101LinqSamples.csproj
 ```
