@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.CompilerServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 namespace myapp
@@ -30,6 +31,9 @@ namespace myapp
                     break;
                 case "collections":
                     Collections();
+                    break;
+                case "challenge":
+                    TestChallengeCode();
                     break;
                 case "handcoded":
                     PascalsTriangle.HardCoded();
@@ -89,6 +93,46 @@ namespace myapp
             }
             #endregion
         }
+
+        public static void TestChallengeCode()
+        {
+            (string arg, string result)[] inputs =
+            {
+                ("Hello World!","Hll Wrld!"),
+                ("Here's a simple sentence.", "Hr's  smpl sntnc."),
+                ("You've learned to manipulate strings in C#. Well Done!" ,"Y'v lrnd t mnplt strngs n C#. Wll Dn!")
+            };
+
+            bool allCorrect = true;
+            foreach (var item in inputs)
+            {
+                var r = RemoveVowels(item.arg);
+
+                if (r == item.result)
+                    Console.WriteLine($"Correct! {item.arg} => {r}");
+                else
+                {
+                    Console.WriteLine($"Try again: {item.arg} !=> {r}");
+                    allCorrect = false;
+                }
+                Console.WriteLine();
+            }
+            if (allCorrect)
+                Console.WriteLine("Congratulations! You solved this challenge!");
+            else
+                Console.WriteLine("Not quite right yet. Try again.");
+        }
+
+        #region challenge
+        public static string RemoveVowels(string inputText)
+        {
+            // Fill in this code and create a string
+            // that removes all the vowels from the input string.
+            // Remember that vowels are 'a', 'e', 'i', 'o' and 'u'. 
+            // Remember to remove both upper and lower case.
+            return inputText;
+        }
+        #endregion
 
         public static void PascalsTriangleHardCoded()
         {
