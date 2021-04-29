@@ -1,6 +1,6 @@
-[![Build Status](https://dev.azure.com/dnceng/public/_apis/build/status/dotnet/try-samples/try-samples-ci?branchName=master)](https://dev.azure.com/dnceng/public/_build/latest?definitionId=548&branchName=master)
+[![Build Status](https://dev.azure.com/dnceng/public/_apis/build/status/dotnet/try-samples/try-samples-ci?branchName=main)](https://dev.azure.com/dnceng/public/_build/latest?definitionId=548&branchName=main)
 ![dotnet try Enabled](https://img.shields.io/badge/Try_.NET-Enabled-501078.svg)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try-samples/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dotnet/try-samples/main?urlpath=lab)
 
 # Try .NET <img src ="https://user-images.githubusercontent.com/2546640/56708992-deee8780-66ec-11e9-9991-eb85abb1d10a.png" width="80px" alt="dotnet bot in space" align ="right">
 
@@ -14,7 +14,7 @@ You can explore these tutorials in your environment using the `dotnet try` globa
 
 *Prerequisite: Install .NET Core SDK [3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)*
 
-1. Install the [dotnet-try](https://github.com/dotnet/try/blob/master/README.md#setup) global tool.
+1. Install the [dotnet-try](https://github.com/dotnet/try/blob/main/README.md#setup) global tool.
 1. Clone this repository.
 1. Set the current directory to one of the sample tutorials (or use the current folder to see all samples).
 1. Run `dotnet try`.
