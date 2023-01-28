@@ -6,8 +6,7 @@ The `where` clause of a LINQ query *restricts* the output sequence. Only the ele
 
 This sample uses where to find all elements of an array less than 5. It demonstrates the components of a query, including a `where` clause that filters for small numbers.
 
-``` cs --region where-syntax --source-file ../src/Restrictions.cs --project ../src/Try101LinqSamples.csproj
-```
+```cs --region where-syntax --source-file ../src/Restrictions.cs --project ../src/Try101LinqSamples.csproj```
 
 ## Filter elements on a property
 
