@@ -5,7 +5,7 @@ page_type: sample
 languages:
   - csharp
 products:
-  - dotnet-core
+  - dotnet
 ---
 # What's new in C# 7.0 thru C# 7.3 - exploration
 
