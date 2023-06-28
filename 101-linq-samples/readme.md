@@ -5,7 +5,7 @@ page_type: sample
 languages:
   - csharp
 products:
-  - dotnet-core
+  - dotnet
 ---
 
 # 101 LINQ Samples
