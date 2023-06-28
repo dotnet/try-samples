@@ -5,7 +5,7 @@ page_type: sample
 languages:
   - csharp
 products:
-  - dotnet-core
+  - dotnet
 ---
 
 # Learn programming with TRY.NET
