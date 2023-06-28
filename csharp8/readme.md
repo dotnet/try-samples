@@ -5,7 +5,7 @@ page_type: sample
 languages:
   - csharp
 products:
-  - dotnet-core
+  - dotnet
 ---
 # What's new in C# 8.0 - exploration
 
